@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/workspaces/bf/tilck/boot/legacy/stage3/entry.S
+tilck_gen_headers/config_global.h
+-
+tilck_gen_headers/config_boot.h
+-
+
+/workspaces/bf/tilck/boot/legacy/stage3/rm_calls.S
+tilck_gen_headers/config_global.h
+-
+tilck_gen_headers/config_boot.h
+-
+
+/workspaces/bf/tilck/build/tilck_gen_headers/config_boot.h
+tilck_gen_headers/config_global.h
+-
+tilck/common/page_size.h
+-
+
+/workspaces/bf/tilck/build/tilck_gen_headers/config_global.h
+
+/workspaces/bf/tilck/include/tilck/common/page_size.h
+

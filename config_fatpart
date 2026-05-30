@@ -1,0 +1,18 @@
+# Special config file used to trigger rebuild of the fatpart in case one of the
+# following variables changes.
+
+fbdoom = 
+micropython = 
+tcc = 
+lua = 
+vim = 
+tree_cmd = 
+
+devshell = 
+dp = 
+extra = 
+fbtest = 
+ncapp = 
+termtest = 
+filedump = 
+extra = 

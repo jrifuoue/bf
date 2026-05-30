@@ -1,0 +1,2 @@
+/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-ar qc libmod_systests.a CMakeFiles/mod_systests.dir/workspaces/bf/tilck/modules/systests/systests.c.o
+/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-ranlib libmod_systests.a

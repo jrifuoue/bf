@@ -1,0 +1,4 @@
+# Hashes of file build rules.
+b1852d75b367389fd13139b5ab796a11 CMakeFiles/bootloader
+586e62a15af45ba03f4de13ee8f2c1d0 bootloader.bin
+d097e6a6b5c80c6860e725011ed0c0a1 elf_stage3

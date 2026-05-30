@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/workspaces/bf/tilck/boot/efi/x86_64/switchmode.S
+tilck_gen_headers/config_global.h
+-
+
+/workspaces/bf/tilck/build/tilck_gen_headers/config_global.h
+

@@ -1,0 +1,32 @@
+stage3/CMakeFiles/elf_stage3_unstripped.dir/ramdisk.c.o: \
+ /workspaces/bf/tilck/boot/legacy/stage3/ramdisk.c \
+ /workspaces/bf/tilck/build/tilck_gen_headers/config_boot.h \
+ /workspaces/bf/tilck/build/tilck_gen_headers/config_global.h \
+ /workspaces/bf/tilck/include/tilck/common/page_size.h \
+ /workspaces/bf/tilck/include/tilck/common/basic_defs.h \
+ /workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/i686-linux-musl/include/stdint.h \
+ /workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/i686-linux-musl/include/bits/alltypes.h \
+ /workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/i686-linux-musl/include/bits/stdint.h \
+ /workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/i686-linux-musl/include/stddef.h \
+ /workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/i686-linux-musl/include/stdbool.h \
+ /workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/i686-linux-musl/include/stdalign.h \
+ /workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/i686-linux-musl/include/inttypes.h \
+ /workspaces/bf/tilck/include/system_headers/features.h \
+ /workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/i686-linux-musl/include/features.h \
+ /workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/i686-linux-musl/include/limits.h \
+ /workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/i686-linux-musl/include/bits/limits.h \
+ /workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/i686-linux-musl/include/stdarg.h \
+ /workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/i686-linux-musl/include/sys/types.h \
+ /workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/i686-linux-musl/include/endian.h \
+ /workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/i686-linux-musl/include/sys/select.h \
+ /workspaces/bf/tilck/include/tilck/common/panic.h \
+ /workspaces/bf/tilck/include/tilck/common/assert.h \
+ /workspaces/bf/tilck/include/tilck/common/fat32_base.h \
+ /workspaces/bf/tilck/include/tilck/common/printk.h \
+ /workspaces/bf/tilck/include/tilck/common/color_defs.h \
+ /workspaces/bf/tilck/include/system_headers/multiboot.h \
+ /workspaces/bf/tilck/boot/legacy/stage3/basic_term.h \
+ /workspaces/bf/tilck/boot/legacy/stage3/realmode_call.h \
+ /workspaces/bf/tilck/boot/legacy/stage3/mm.h \
+ /workspaces/bf/tilck/boot/legacy/stage3/common.h \
+ /workspaces/bf/tilck/include/tilck/boot/common.h

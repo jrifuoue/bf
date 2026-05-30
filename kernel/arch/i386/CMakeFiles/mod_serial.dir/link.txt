@@ -1,0 +1,2 @@
+/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-ar qc libmod_serial.a CMakeFiles/mod_serial.dir/workspaces/bf/tilck/modules/serial/generic_x86/uart_8250.c.o CMakeFiles/mod_serial.dir/workspaces/bf/tilck/modules/serial/serial.c.o CMakeFiles/mod_serial.dir/workspaces/bf/tilck/modules/serial/serial_term.c.o
+/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-ranlib libmod_serial.a

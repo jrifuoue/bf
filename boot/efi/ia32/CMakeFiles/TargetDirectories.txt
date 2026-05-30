@@ -1,0 +1,4 @@
+/workspaces/bf/tilck/build/boot/efi/ia32/CMakeFiles/efi_app_ia32.dir
+/workspaces/bf/tilck/build/boot/efi/ia32/CMakeFiles/efi_ia32_bootloader.dir
+/workspaces/bf/tilck/build/boot/efi/ia32/CMakeFiles/edit_cache.dir
+/workspaces/bf/tilck/build/boot/efi/ia32/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,1 @@
+/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-gcc  -ggdb -Os -Wall -Wno-unused-parameter -g  -static CMakeFiles/fbtest.dir/fbtest.c.o -o fbtest 

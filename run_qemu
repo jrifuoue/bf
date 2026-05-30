@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+
+BUILD_DIR=/workspaces/bf/tilck/build
+
+if [ -z "$GDB_PORT" ]; then
+   GDB_PORT=1234
+fi
+
+qemu-system-i386                                     \
+   -rtc base=localtime,clock=vm                                  \
+   -gdb tcp::$GDB_PORT                                 \
+                                         \
+   -drive id=img1,format=raw,if=none,file=/workspaces/bf/tilck/build/tilck.img   \
+   -netdev user,id=net0,hostfwd=udp::2222-:22          \
+   -device e1000,netdev=net0                           \
+   -device ide-hd,drive=img1,cyls=74,heads=16,secs=63 $EXTRA_OPTS "$@"

@@ -1,0 +1,14 @@
+# Target labels
+ userapps
+# Source files and their labels
+/workspaces/bf/tilck/build/CMakeFiles/userapps
+/workspaces/bf/tilck/build/CMakeFiles/userapps.rule
+/workspaces/bf/tilck/build/CMakeFiles/userapps-complete.rule
+/workspaces/bf/tilck/build/userapps-prefix/src/userapps-stamp/userapps-build.rule
+/workspaces/bf/tilck/build/userapps-prefix/src/userapps-stamp/userapps-config_dep.rule
+/workspaces/bf/tilck/build/userapps-prefix/src/userapps-stamp/userapps-configure.rule
+/workspaces/bf/tilck/build/userapps-prefix/src/userapps-stamp/userapps-download.rule
+/workspaces/bf/tilck/build/userapps-prefix/src/userapps-stamp/userapps-install.rule
+/workspaces/bf/tilck/build/userapps-prefix/src/userapps-stamp/userapps-mkdir.rule
+/workspaces/bf/tilck/build/userapps-prefix/src/userapps-stamp/userapps-patch.rule
+/workspaces/bf/tilck/build/userapps-prefix/src/userapps-stamp/userapps-update.rule

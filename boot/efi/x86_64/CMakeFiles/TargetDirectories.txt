@@ -1,0 +1,4 @@
+/workspaces/bf/tilck/build/boot/efi/x86_64/CMakeFiles/efi_app_x86_64.dir
+/workspaces/bf/tilck/build/boot/efi/x86_64/CMakeFiles/efi_x86_64_bootloader.dir
+/workspaces/bf/tilck/build/boot/efi/x86_64/CMakeFiles/edit_cache.dir
+/workspaces/bf/tilck/build/boot/efi/x86_64/CMakeFiles/rebuild_cache.dir

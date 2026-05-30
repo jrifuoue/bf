@@ -1,0 +1,1 @@
+/workspaces/bf/tilck/build/userapps/init;/workspaces/bf/tilck/build/userapps/termtest;/workspaces/bf/tilck/build/userapps/fbtest;/workspaces/bf/tilck/build/userapps/dp;/workspaces/bf/tilck/build/userapps/tracer;/workspaces/bf/tilck/build/userapps/devshell

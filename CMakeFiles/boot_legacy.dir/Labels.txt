@@ -1,0 +1,15 @@
+# Target labels
+ boot_legacy
+# Source files and their labels
+/workspaces/bf/tilck/build/CMakeFiles/boot_legacy
+/workspaces/bf/tilck/build/CMakeFiles/boot_legacy.rule
+/workspaces/bf/tilck/build/CMakeFiles/boot_legacy-complete.rule
+/workspaces/bf/tilck/build/boot_legacy-prefix/src/boot_legacy-stamp/boot_legacy-build.rule
+/workspaces/bf/tilck/build/boot_legacy-prefix/src/boot_legacy-stamp/boot_legacy-config_dep.rule
+/workspaces/bf/tilck/build/boot_legacy-prefix/src/boot_legacy-stamp/boot_legacy-configure.rule
+/workspaces/bf/tilck/build/boot_legacy-prefix/src/boot_legacy-stamp/boot_legacy-download.rule
+/workspaces/bf/tilck/build/boot_legacy-prefix/src/boot_legacy-stamp/boot_legacy-elfhack_dep.rule
+/workspaces/bf/tilck/build/boot_legacy-prefix/src/boot_legacy-stamp/boot_legacy-install.rule
+/workspaces/bf/tilck/build/boot_legacy-prefix/src/boot_legacy-stamp/boot_legacy-mkdir.rule
+/workspaces/bf/tilck/build/boot_legacy-prefix/src/boot_legacy-stamp/boot_legacy-patch.rule
+/workspaces/bf/tilck/build/boot_legacy-prefix/src/boot_legacy-stamp/boot_legacy-update.rule

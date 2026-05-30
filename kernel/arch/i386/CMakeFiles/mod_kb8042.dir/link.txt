@@ -1,0 +1,2 @@
+/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-ar qc libmod_kb8042.a CMakeFiles/mod_kb8042.dir/workspaces/bf/tilck/modules/kb8042/generic_x86/i8042.c.o CMakeFiles/mod_kb8042.dir/workspaces/bf/tilck/modules/kb8042/generic_x86/kb.c.o
+/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-ranlib libmod_kb8042.a

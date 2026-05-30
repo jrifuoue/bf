@@ -1,0 +1,1 @@
+/usr/bin/g++ CMakeFiles/gen_config.dir/gen_config.cpp.o -o gen_config 

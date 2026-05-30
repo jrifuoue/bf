@@ -1,0 +1,2 @@
+/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-ar qc libmod_debugpanel.a CMakeFiles/mod_debugpanel.dir/workspaces/bf/tilck/modules/debugpanel/dp_data.c.o CMakeFiles/mod_debugpanel.dir/workspaces/bf/tilck/modules/debugpanel/dp_debugger.c.o
+/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-ranlib libmod_debugpanel.a

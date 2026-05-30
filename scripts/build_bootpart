@@ -1,0 +1,69 @@
+#!/usr/bin/env bash
+# SPDX-License-Identifier: BSD-2-Clause
+
+# Exit on any error
+set -e
+
+maindir="/workspaces/bf/tilck"
+bdir="/workspaces/bf/tilck/build"
+dest="/workspaces/bf/tilck/build/bootpart"
+host_arch_dir_sys="/workspaces/bf/tilck/toolchain4/host/linux-x86_64/ubuntu-24.04"
+mtools_ver="4.0.49"
+
+mtoolsdir=$host_arch_dir_sys/mtools/$mtools_ver
+mformat=$mtoolsdir/mformat
+mlabel=$mtoolsdir/mlabel
+mmd=$mtoolsdir/mmd
+mcopy=$mtoolsdir/mcopy
+mdel=$mtoolsdir/mdel
+
+if [ ! -f $dest ]; then
+   # If the 'bootpart' file does not already exist
+   dd status=none if=/dev/zero of=$dest count=6144
+fi
+
+$mformat -i $dest -d 1 -c 1 -T 6144 ::
+$mlabel -i $dest ::BOOT
+
+$mmd -i $dest EFI
+$mmd -i $dest EFI/BOOT
+
+if [ -s "/workspaces/bf/tilck/build/boot/efi/BOOTX64.EFI" ]; then
+   $mcopy -i $dest "/workspaces/bf/tilck/build/boot/efi/BOOTX64.EFI" ::/EFI/BOOT/
+fi
+
+if [ -s "/workspaces/bf/tilck/build/boot/efi/BOOTIA32.EFI" ]; then
+   $mcopy -i $dest "/workspaces/bf/tilck/build/boot/efi/BOOTIA32.EFI" ::/EFI/BOOT/
+fi
+
+if [ -n "tilck" ]; then
+   $mcopy -i $dest /workspaces/bf/tilck/build/tilck ::/tilck
+fi
+
+if [ -n "" ]; then
+
+   force_fat32=""
+   spc="8"
+
+   if [[ "$spc" == "1" ]]; then
+      force_fat32="-F"
+   fi
+
+   $mformat -i $dest -d 1 $force_fat32 -c $spc -T 65536 ::
+   $mlabel -i $dest ::TILCK
+   $mcopy -i /workspaces/bf/tilck/build/fatpart  ::/
+
+fi
+
+if [ -n "" ]; then
+   $mcopy -i $dest  ::/
+fi
+
+if [ -n "" ]; then
+   $mcopy -i $dest  ::/
+fi
+
+if [ -n "" ]; then
+   $mcopy -i $dest  ::/
+fi
+

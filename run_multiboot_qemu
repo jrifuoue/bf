@@ -1,0 +1,11 @@
+#!/bin/sh
+
+BUILD_DIR="/workspaces/bf/tilck/build"
+FATPART="$BUILD_DIR/fatpart"
+
+if [ -z "$GDB_PORT" ]; then
+   GDB_PORT=1234
+fi
+
+qemu-system-i386 -rtc base=localtime,clock=vm -gdb tcp::$GDB_PORT \
+    -kernel "/workspaces/bf/tilck/build/tilck" -initrd "$FATPART" "$@"

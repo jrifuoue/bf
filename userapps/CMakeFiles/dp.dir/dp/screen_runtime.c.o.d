@@ -1,0 +1,35 @@
+CMakeFiles/dp.dir/dp/screen_runtime.c.o: \
+ /workspaces/bf/tilck/userapps/dp/screen_runtime.c \
+ /workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/i686-linux-musl/include/stdc-predef.h \
+ /workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/i686-linux-musl/include/stdio.h \
+ /workspaces/bf/tilck/include/system_headers/features.h \
+ /workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/i686-linux-musl/include/features.h \
+ /workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/i686-linux-musl/include/bits/alltypes.h \
+ /workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/i686-linux-musl/include/unistd.h \
+ /workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/i686-linux-musl/include/bits/posix.h \
+ /workspaces/bf/tilck/include/system_headers/sys/syscall.h \
+ /workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/i686-linux-musl/include/sys/syscall.h \
+ /workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/i686-linux-musl/include/bits/syscall.h \
+ /workspaces/bf/tilck/include/tilck/common/syscalls.h \
+ /workspaces/bf/tilck/include/tilck/common/dp_abi.h \
+ /workspaces/bf/tilck/include/tilck/common/basic_defs.h \
+ /workspaces/bf/tilck/build/tilck_gen_headers/config_global.h \
+ /workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/i686-linux-musl/include/stdint.h \
+ /workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/i686-linux-musl/include/bits/stdint.h \
+ /workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/i686-linux-musl/include/stddef.h \
+ /workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/i686-linux-musl/include/stdbool.h \
+ /workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/i686-linux-musl/include/stdalign.h \
+ /workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/i686-linux-musl/include/inttypes.h \
+ /workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/i686-linux-musl/include/limits.h \
+ /workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/i686-linux-musl/include/bits/limits.h \
+ /workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/i686-linux-musl/include/stdarg.h \
+ /workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/i686-linux-musl/include/sys/types.h \
+ /workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/i686-linux-musl/include/endian.h \
+ /workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/i686-linux-musl/include/sys/select.h \
+ /workspaces/bf/tilck/include/tilck/common/panic.h \
+ /workspaces/bf/tilck/include/tilck/common/assert.h \
+ /workspaces/bf/tilck/userapps/common/term.h \
+ /workspaces/bf/tilck/userapps/common/tui_layout.h \
+ /workspaces/bf/tilck/userapps/dp/dp_int.h \
+ /workspaces/bf/tilck/userapps/common/tui_input.h \
+ /workspaces/bf/tilck/userapps/dp/dp_panel.h

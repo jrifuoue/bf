@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/workspaces/bf/tilck/build/CMakeFiles/userapps"
+		},
+		{
+			"file" : "/workspaces/bf/tilck/build/CMakeFiles/userapps.rule"
+		},
+		{
+			"file" : "/workspaces/bf/tilck/build/CMakeFiles/userapps-complete.rule"
+		},
+		{
+			"file" : "/workspaces/bf/tilck/build/userapps-prefix/src/userapps-stamp/userapps-build.rule"
+		},
+		{
+			"file" : "/workspaces/bf/tilck/build/userapps-prefix/src/userapps-stamp/userapps-config_dep.rule"
+		},
+		{
+			"file" : "/workspaces/bf/tilck/build/userapps-prefix/src/userapps-stamp/userapps-configure.rule"
+		},
+		{
+			"file" : "/workspaces/bf/tilck/build/userapps-prefix/src/userapps-stamp/userapps-download.rule"
+		},
+		{
+			"file" : "/workspaces/bf/tilck/build/userapps-prefix/src/userapps-stamp/userapps-install.rule"
+		},
+		{
+			"file" : "/workspaces/bf/tilck/build/userapps-prefix/src/userapps-stamp/userapps-mkdir.rule"
+		},
+		{
+			"file" : "/workspaces/bf/tilck/build/userapps-prefix/src/userapps-stamp/userapps-patch.rule"
+		},
+		{
+			"file" : "/workspaces/bf/tilck/build/userapps-prefix/src/userapps-stamp/userapps-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"userapps"
+		],
+		"name" : "userapps"
+	}
+}

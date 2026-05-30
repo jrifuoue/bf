@@ -1,0 +1,543 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:228 (message)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      The target system is: Linux -  - i686
+      The host system is: Linux - 6.8.0-1052-azure - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-gcc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /workspaces/bf/tilck/build/kernel/CMakeFiles/3.28.3/CompilerIdC/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-g++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /workspaces/bf/tilck/build/kernel/CMakeFiles/3.28.3/CompilerIdCXX/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1131 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineASMCompiler.cmake:131 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+      i686-linux-gcc (GCC) 13.3.0
+      Copyright (C) 2023 Free Software Foundation, Inc.
+      This is free software; see the source for copying conditions.  There is NO
+      warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/workspaces/bf/tilck/build/kernel/CMakeFiles/CMakeScratch/TryCompile-88qMxz"
+      binary: "/workspaces/bf/tilck/build/kernel/CMakeFiles/CMakeScratch/TryCompile-88qMxz"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/workspaces/bf/tilck/build/kernel/CMakeFiles/CMakeScratch/TryCompile-88qMxz'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_aed28/fast
+        gmake[4]: Entering directory '/workspaces/bf/tilck/build/kernel/CMakeFiles/CMakeScratch/TryCompile-88qMxz'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_aed28.dir/build.make CMakeFiles/cmTC_aed28.dir/build
+        gmake[5]: Entering directory '/workspaces/bf/tilck/build/kernel/CMakeFiles/CMakeScratch/TryCompile-88qMxz'
+        Building C object CMakeFiles/cmTC_aed28.dir/CMakeCCompilerABI.c.o
+        /workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-gcc   -v -o CMakeFiles/cmTC_aed28.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-gcc
+        Target: i686-linux-musl
+        Configured with: ../src_gcc/configure --enable-languages=c,c++ CFLAGS='-g0 -Os' CXXFLAGS='-g0 -Os' LDFLAGS='-s -static' --disable-shared --enable-static --with-static-standard-libraries --disable-bootstrap --disable-assembly --disable-werror --target=i686-linux-musl --prefix= --libdir=/lib --disable-multilib --with-sysroot=/i686-linux-musl --enable-tls --disable-libmudflap --disable-libsanitizer --disable-gnu-indirect-function --disable-libmpx --enable-initfini-array --enable-libstdcxx-time=rt --with-build-sysroot=/home/vlad/musl-cross-make/build/local/i686-linux-musl/obj_sysroot AR_FOR_TARGET=/home/vlad/musl-cross-make/build/local/i686-linux-musl/obj_binutils/binutils/ar AS_FOR_TARGET=/home/vlad/musl-cross-make/build/local/i686-linux-musl/obj_binutils/gas/as-new LD_FOR_TARGET=/home/vlad/musl-cross-make/build/local/i686-linux-musl/obj_binutils/ld/ld-new NM_FOR_TARGET=/home/vlad/musl-cross-make/build/local/i686-linux-musl/obj_binutils/binutils/nm-new OBJCOPY_FOR_TARGET=/home/vlad/musl-cross-make/build/local/i686-linux-musl/obj_binutils/binutils/objcopy OBJDUMP_FOR_TARGET=/home/vlad/musl-cross-make/build/local/i686-linux-musl/obj_binutils/binutils/objdump RANLIB_FOR_TARGET=/home/vlad/musl-cross-make/build/local/i686-linux-musl/obj_binutils/binutils/ranlib READELF_FOR_TARGET=/home/vlad/musl-cross-make/build/local/i686-linux-musl/obj_binutils/binutils/readelf STRIP_FOR_TARGET=/home/vlad/musl-cross-make/build/local/i686-linux-musl/obj_binutils/binutils/strip-new --build=x86_64-pc-linux-musl --host=x86_64-pc-linux-musl
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 13.3.0 (GCC) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_aed28.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'CMakeFiles/cmTC_aed28.dir/'
+         /workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../libexec/gcc/i686-linux-musl/13.3.0/cc1 -quiet -v -iprefix /workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/ -isysroot /workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../i686-linux-musl /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_aed28.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=pentiumpro -version -o /tmp/ccIhoiJl.s
+        GNU C17 (GCC) version 13.3.0 (i686-linux-musl)
+        	compiled by GNU C version 13.3.0, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.3.1, isl version none
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../i686-linux-musl/usr/local/include"
+        ignoring duplicate directory "/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/../../lib/gcc/i686-linux-musl/13.3.0/../../../../i686-linux-musl/include"
+        ignoring nonexistent directory "/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../i686-linux-musl/usr/include"
+        ignoring duplicate directory "/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/../../lib/gcc/i686-linux-musl/13.3.0/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/../../../../i686-linux-musl/include
+         /workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/include
+        End of search list.
+        Compiler executable checksum: e8349ba413c9a2053447a7f89c97a805
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_aed28.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'CMakeFiles/cmTC_aed28.dir/'
+         /workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/../../../../i686-linux-musl/bin/as -v --32 -o CMakeFiles/cmTC_aed28.dir/CMakeCCompilerABI.c.o /tmp/ccIhoiJl.s
+        GNU assembler version 2.44 (i686-linux-musl) using BFD version (GNU Binutils) 2.44
+        COMPILER_PATH=/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../libexec/gcc/i686-linux-musl/13.3.0/:/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../libexec/gcc/:/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/../../../../i686-linux-musl/bin/
+        LIBRARY_PATH=/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/:/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/:/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/../../../../i686-linux-musl/lib/:/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../i686-linux-musl/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_aed28.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'CMakeFiles/cmTC_aed28.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_aed28
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aed28.dir/link.txt --verbose=1
+        /workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-gcc  -v CMakeFiles/cmTC_aed28.dir/CMakeCCompilerABI.c.o -o cmTC_aed28 
+        Using built-in specs.
+        COLLECT_GCC=/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-gcc
+        COLLECT_LTO_WRAPPER=/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../libexec/gcc/i686-linux-musl/13.3.0/lto-wrapper
+        Target: i686-linux-musl
+        Configured with: ../src_gcc/configure --enable-languages=c,c++ CFLAGS='-g0 -Os' CXXFLAGS='-g0 -Os' LDFLAGS='-s -static' --disable-shared --enable-static --with-static-standard-libraries --disable-bootstrap --disable-assembly --disable-werror --target=i686-linux-musl --prefix= --libdir=/lib --disable-multilib --with-sysroot=/i686-linux-musl --enable-tls --disable-libmudflap --disable-libsanitizer --disable-gnu-indirect-function --disable-libmpx --enable-initfini-array --enable-libstdcxx-time=rt --with-build-sysroot=/home/vlad/musl-cross-make/build/local/i686-linux-musl/obj_sysroot AR_FOR_TARGET=/home/vlad/musl-cross-make/build/local/i686-linux-musl/obj_binutils/binutils/ar AS_FOR_TARGET=/home/vlad/musl-cross-make/build/local/i686-linux-musl/obj_binutils/gas/as-new LD_FOR_TARGET=/home/vlad/musl-cross-make/build/local/i686-linux-musl/obj_binutils/ld/ld-new NM_FOR_TARGET=/home/vlad/musl-cross-make/build/local/i686-linux-musl/obj_binutils/binutils/nm-new OBJCOPY_FOR_TARGET=/home/vlad/musl-cross-make/build/local/i686-linux-musl/obj_binutils/binutils/objcopy OBJDUMP_FOR_TARGET=/home/vlad/musl-cross-make/build/local/i686-linux-musl/obj_binutils/binutils/objdump RANLIB_FOR_TARGET=/home/vlad/musl-cross-make/build/local/i686-linux-musl/obj_binutils/binutils/ranlib READELF_FOR_TARGET=/home/vlad/musl-cross-make/build/local/i686-linux-musl/obj_binutils/binutils/readelf STRIP_FOR_TARGET=/home/vlad/musl-cross-make/build/local/i686-linux-musl/obj_binutils/binutils/strip-new --build=x86_64-pc-linux-musl --host=x86_64-pc-linux-musl
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 13.3.0 (GCC) 
+        COMPILER_PATH=/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../libexec/gcc/i686-linux-musl/13.3.0/:/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../libexec/gcc/:/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/../../../../i686-linux-musl/bin/
+        LIBRARY_PATH=/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/:/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/:/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/../../../../i686-linux-musl/lib/:/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../i686-linux-musl/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_aed28' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'cmTC_aed28.'
+         /workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../libexec/gcc/i686-linux-musl/13.3.0/collect2 --sysroot=/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../i686-linux-musl --eh-frame-hdr -m elf_i386 -dynamic-linker /lib/ld-musl-i386.so.1 -o cmTC_aed28 /workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/../../../../i686-linux-musl/lib/crt1.o /workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/../../../../i686-linux-musl/lib/crti.o /workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/crtbegin.o -L/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0 -L/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc -L/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/../../../../i686-linux-musl/lib -L/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../i686-linux-musl/lib CMakeFiles/cmTC_aed28.dir/CMakeCCompilerABI.c.o -lgcc -lc -lgcc /workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/crtend.o /workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/../../../../i686-linux-musl/lib/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_aed28' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'cmTC_aed28.'
+        gmake[5]: Leaving directory '/workspaces/bf/tilck/build/kernel/CMakeFiles/CMakeScratch/TryCompile-88qMxz'
+        gmake[4]: Leaving directory '/workspaces/bf/tilck/build/kernel/CMakeFiles/CMakeScratch/TryCompile-88qMxz'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/../../../../i686-linux-musl/include]
+          add: [/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/include]
+        end of search list found
+        collapse include dir [/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/../../../../i686-linux-musl/include] ==> [/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/i686-linux-musl/include]
+        collapse include dir [/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/include] ==> [/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/lib/gcc/i686-linux-musl/13.3.0/include]
+        implicit include dirs: [/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/i686-linux-musl/include;/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/lib/gcc/i686-linux-musl/13.3.0/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:159 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(i686-linux-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: '/workspaces/bf/tilck/build/kernel/CMakeFiles/CMakeScratch/TryCompile-88qMxz']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_aed28/fast]
+        ignore line: [gmake[4]: Entering directory '/workspaces/bf/tilck/build/kernel/CMakeFiles/CMakeScratch/TryCompile-88qMxz']
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_aed28.dir/build.make CMakeFiles/cmTC_aed28.dir/build]
+        ignore line: [gmake[5]: Entering directory '/workspaces/bf/tilck/build/kernel/CMakeFiles/CMakeScratch/TryCompile-88qMxz']
+        ignore line: [Building C object CMakeFiles/cmTC_aed28.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-gcc   -v -o CMakeFiles/cmTC_aed28.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-gcc]
+        ignore line: [Target: i686-linux-musl]
+        ignore line: [Configured with: ../src_gcc/configure --enable-languages=c,c++ CFLAGS='-g0 -Os' CXXFLAGS='-g0 -Os' LDFLAGS='-s -static' --disable-shared --enable-static --with-static-standard-libraries --disable-bootstrap --disable-assembly --disable-werror --target=i686-linux-musl --prefix= --libdir=/lib --disable-multilib --with-sysroot=/i686-linux-musl --enable-tls --disable-libmudflap --disable-libsanitizer --disable-gnu-indirect-function --disable-libmpx --enable-initfini-array --enable-libstdcxx-time=rt --with-build-sysroot=/home/vlad/musl-cross-make/build/local/i686-linux-musl/obj_sysroot AR_FOR_TARGET=/home/vlad/musl-cross-make/build/local/i686-linux-musl/obj_binutils/binutils/ar AS_FOR_TARGET=/home/vlad/musl-cross-make/build/local/i686-linux-musl/obj_binutils/gas/as-new LD_FOR_TARGET=/home/vlad/musl-cross-make/build/local/i686-linux-musl/obj_binutils/ld/ld-new NM_FOR_TARGET=/home/vlad/musl-cross-make/build/local/i686-linux-musl/obj_binutils/binutils/nm-new OBJCOPY_FOR_TARGET=/home/vlad/musl-cross-make/build/local/i686-linux-musl/obj_binutils/binutils/objcopy OBJDUMP_FOR_TARGET=/home/vlad/musl-cross-make/build/local/i686-linux-musl/obj_binutils/binutils/objdump RANLIB_FOR_TARGET=/home/vlad/musl-cross-make/build/local/i686-linux-musl/obj_binutils/binutils/ranlib READELF_FOR_TARGET=/home/vlad/musl-cross-make/build/local/i686-linux-musl/obj_binutils/binutils/readelf STRIP_FOR_TARGET=/home/vlad/musl-cross-make/build/local/i686-linux-musl/obj_binutils/binutils/strip-new --build=x86_64-pc-linux-musl --host=x86_64-pc-linux-musl]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 13.3.0 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_aed28.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'CMakeFiles/cmTC_aed28.dir/']
+        ignore line: [ /workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../libexec/gcc/i686-linux-musl/13.3.0/cc1 -quiet -v -iprefix /workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/ -isysroot /workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../i686-linux-musl /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_aed28.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=pentiumpro -version -o /tmp/ccIhoiJl.s]
+        ignore line: [GNU C17 (GCC) version 13.3.0 (i686-linux-musl)]
+        ignore line: [	compiled by GNU C version 13.3.0  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.3.1  isl version none]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../i686-linux-musl/usr/local/include"]
+        ignore line: [ignoring duplicate directory "/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/../../lib/gcc/i686-linux-musl/13.3.0/../../../../i686-linux-musl/include"]
+        ignore line: [ignoring nonexistent directory "/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../i686-linux-musl/usr/include"]
+        ignore line: [ignoring duplicate directory "/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/../../lib/gcc/i686-linux-musl/13.3.0/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/../../../../i686-linux-musl/include]
+        ignore line: [ /workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: e8349ba413c9a2053447a7f89c97a805]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_aed28.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'CMakeFiles/cmTC_aed28.dir/']
+        ignore line: [ /workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/../../../../i686-linux-musl/bin/as -v --32 -o CMakeFiles/cmTC_aed28.dir/CMakeCCompilerABI.c.o /tmp/ccIhoiJl.s]
+        ignore line: [GNU assembler version 2.44 (i686-linux-musl) using BFD version (GNU Binutils) 2.44]
+        ignore line: [COMPILER_PATH=/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../libexec/gcc/i686-linux-musl/13.3.0/:/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../libexec/gcc/:/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/../../../../i686-linux-musl/bin/]
+        ignore line: [LIBRARY_PATH=/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/:/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/:/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/../../../../i686-linux-musl/lib/:/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../i686-linux-musl/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_aed28.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'CMakeFiles/cmTC_aed28.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_aed28]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aed28.dir/link.txt --verbose=1]
+        ignore line: [/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-gcc  -v CMakeFiles/cmTC_aed28.dir/CMakeCCompilerABI.c.o -o cmTC_aed28 ]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-gcc]
+        ignore line: [COLLECT_LTO_WRAPPER=/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../libexec/gcc/i686-linux-musl/13.3.0/lto-wrapper]
+        ignore line: [Target: i686-linux-musl]
+        ignore line: [Configured with: ../src_gcc/configure --enable-languages=c,c++ CFLAGS='-g0 -Os' CXXFLAGS='-g0 -Os' LDFLAGS='-s -static' --disable-shared --enable-static --with-static-standard-libraries --disable-bootstrap --disable-assembly --disable-werror --target=i686-linux-musl --prefix= --libdir=/lib --disable-multilib --with-sysroot=/i686-linux-musl --enable-tls --disable-libmudflap --disable-libsanitizer --disable-gnu-indirect-function --disable-libmpx --enable-initfini-array --enable-libstdcxx-time=rt --with-build-sysroot=/home/vlad/musl-cross-make/build/local/i686-linux-musl/obj_sysroot AR_FOR_TARGET=/home/vlad/musl-cross-make/build/local/i686-linux-musl/obj_binutils/binutils/ar AS_FOR_TARGET=/home/vlad/musl-cross-make/build/local/i686-linux-musl/obj_binutils/gas/as-new LD_FOR_TARGET=/home/vlad/musl-cross-make/build/local/i686-linux-musl/obj_binutils/ld/ld-new NM_FOR_TARGET=/home/vlad/musl-cross-make/build/local/i686-linux-musl/obj_binutils/binutils/nm-new OBJCOPY_FOR_TARGET=/home/vlad/musl-cross-make/build/local/i686-linux-musl/obj_binutils/binutils/objcopy OBJDUMP_FOR_TARGET=/home/vlad/musl-cross-make/build/local/i686-linux-musl/obj_binutils/binutils/objdump RANLIB_FOR_TARGET=/home/vlad/musl-cross-make/build/local/i686-linux-musl/obj_binutils/binutils/ranlib READELF_FOR_TARGET=/home/vlad/musl-cross-make/build/local/i686-linux-musl/obj_binutils/binutils/readelf STRIP_FOR_TARGET=/home/vlad/musl-cross-make/build/local/i686-linux-musl/obj_binutils/binutils/strip-new --build=x86_64-pc-linux-musl --host=x86_64-pc-linux-musl]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 13.3.0 (GCC) ]
+        ignore line: [COMPILER_PATH=/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../libexec/gcc/i686-linux-musl/13.3.0/:/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../libexec/gcc/:/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/../../../../i686-linux-musl/bin/]
+        ignore line: [LIBRARY_PATH=/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/:/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/:/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/../../../../i686-linux-musl/lib/:/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../i686-linux-musl/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_aed28' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'cmTC_aed28.']
+        link line: [ /workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../libexec/gcc/i686-linux-musl/13.3.0/collect2 --sysroot=/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../i686-linux-musl --eh-frame-hdr -m elf_i386 -dynamic-linker /lib/ld-musl-i386.so.1 -o cmTC_aed28 /workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/../../../../i686-linux-musl/lib/crt1.o /workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/../../../../i686-linux-musl/lib/crti.o /workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/crtbegin.o -L/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0 -L/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc -L/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/../../../../i686-linux-musl/lib -L/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../i686-linux-musl/lib CMakeFiles/cmTC_aed28.dir/CMakeCCompilerABI.c.o -lgcc -lc -lgcc /workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/crtend.o /workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/../../../../i686-linux-musl/lib/crtn.o]
+          arg [/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../libexec/gcc/i686-linux-musl/13.3.0/collect2] ==> ignore
+          arg [--sysroot=/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../i686-linux-musl] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_i386] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib/ld-musl-i386.so.1] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_aed28] ==> ignore
+          arg [/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/../../../../i686-linux-musl/lib/crt1.o] ==> obj [/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/../../../../i686-linux-musl/lib/crt1.o]
+          arg [/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/../../../../i686-linux-musl/lib/crti.o] ==> obj [/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/../../../../i686-linux-musl/lib/crti.o]
+          arg [/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/crtbegin.o] ==> obj [/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/crtbegin.o]
+          arg [-L/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0] ==> dir [/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0]
+          arg [-L/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc] ==> dir [/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc]
+          arg [-L/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/../../../../i686-linux-musl/lib] ==> dir [/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/../../../../i686-linux-musl/lib]
+          arg [-L/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../i686-linux-musl/lib] ==> dir [/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../i686-linux-musl/lib]
+          arg [CMakeFiles/cmTC_aed28.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/crtend.o] ==> obj [/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/crtend.o]
+          arg [/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/../../../../i686-linux-musl/lib/crtn.o] ==> obj [/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/../../../../i686-linux-musl/lib/crtn.o]
+        collapse obj [/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/../../../../i686-linux-musl/lib/crt1.o] ==> [/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/i686-linux-musl/lib/crt1.o]
+        collapse obj [/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/../../../../i686-linux-musl/lib/crti.o] ==> [/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/i686-linux-musl/lib/crti.o]
+        collapse obj [/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/crtbegin.o] ==> [/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/lib/gcc/i686-linux-musl/13.3.0/crtbegin.o]
+        collapse obj [/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/crtend.o] ==> [/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/lib/gcc/i686-linux-musl/13.3.0/crtend.o]
+        collapse obj [/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/../../../../i686-linux-musl/lib/crtn.o] ==> [/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/i686-linux-musl/lib/crtn.o]
+        collapse library dir [/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0] ==> [/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/lib/gcc/i686-linux-musl/13.3.0]
+        collapse library dir [/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc] ==> [/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/lib/gcc]
+        collapse library dir [/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/../../../../i686-linux-musl/lib] ==> [/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/i686-linux-musl/lib]
+        collapse library dir [/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../i686-linux-musl/lib] ==> [/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/i686-linux-musl/lib]
+        implicit libs: [gcc;c;gcc]
+        implicit objs: [/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/i686-linux-musl/lib/crt1.o;/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/i686-linux-musl/lib/crti.o;/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/lib/gcc/i686-linux-musl/13.3.0/crtbegin.o;/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/lib/gcc/i686-linux-musl/13.3.0/crtend.o;/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/i686-linux-musl/lib/crtn.o]
+        implicit dirs: [/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/lib/gcc/i686-linux-musl/13.3.0;/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/lib/gcc;/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/i686-linux-musl/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/workspaces/bf/tilck/build/kernel/CMakeFiles/CMakeScratch/TryCompile-tGH9N6"
+      binary: "/workspaces/bf/tilck/build/kernel/CMakeFiles/CMakeScratch/TryCompile-tGH9N6"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/workspaces/bf/tilck/build/kernel/CMakeFiles/CMakeScratch/TryCompile-tGH9N6'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_82cf6/fast
+        gmake[4]: Entering directory '/workspaces/bf/tilck/build/kernel/CMakeFiles/CMakeScratch/TryCompile-tGH9N6'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_82cf6.dir/build.make CMakeFiles/cmTC_82cf6.dir/build
+        gmake[5]: Entering directory '/workspaces/bf/tilck/build/kernel/CMakeFiles/CMakeScratch/TryCompile-tGH9N6'
+        Building CXX object CMakeFiles/cmTC_82cf6.dir/CMakeCXXCompilerABI.cpp.o
+        /workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-g++   -v -o CMakeFiles/cmTC_82cf6.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-g++
+        Target: i686-linux-musl
+        Configured with: ../src_gcc/configure --enable-languages=c,c++ CFLAGS='-g0 -Os' CXXFLAGS='-g0 -Os' LDFLAGS='-s -static' --disable-shared --enable-static --with-static-standard-libraries --disable-bootstrap --disable-assembly --disable-werror --target=i686-linux-musl --prefix= --libdir=/lib --disable-multilib --with-sysroot=/i686-linux-musl --enable-tls --disable-libmudflap --disable-libsanitizer --disable-gnu-indirect-function --disable-libmpx --enable-initfini-array --enable-libstdcxx-time=rt --with-build-sysroot=/home/vlad/musl-cross-make/build/local/i686-linux-musl/obj_sysroot AR_FOR_TARGET=/home/vlad/musl-cross-make/build/local/i686-linux-musl/obj_binutils/binutils/ar AS_FOR_TARGET=/home/vlad/musl-cross-make/build/local/i686-linux-musl/obj_binutils/gas/as-new LD_FOR_TARGET=/home/vlad/musl-cross-make/build/local/i686-linux-musl/obj_binutils/ld/ld-new NM_FOR_TARGET=/home/vlad/musl-cross-make/build/local/i686-linux-musl/obj_binutils/binutils/nm-new OBJCOPY_FOR_TARGET=/home/vlad/musl-cross-make/build/local/i686-linux-musl/obj_binutils/binutils/objcopy OBJDUMP_FOR_TARGET=/home/vlad/musl-cross-make/build/local/i686-linux-musl/obj_binutils/binutils/objdump RANLIB_FOR_TARGET=/home/vlad/musl-cross-make/build/local/i686-linux-musl/obj_binutils/binutils/ranlib READELF_FOR_TARGET=/home/vlad/musl-cross-make/build/local/i686-linux-musl/obj_binutils/binutils/readelf STRIP_FOR_TARGET=/home/vlad/musl-cross-make/build/local/i686-linux-musl/obj_binutils/binutils/strip-new --build=x86_64-pc-linux-musl --host=x86_64-pc-linux-musl
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 13.3.0 (GCC) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_82cf6.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'CMakeFiles/cmTC_82cf6.dir/'
+         /workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../libexec/gcc/i686-linux-musl/13.3.0/cc1plus -quiet -v -iprefix /workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/ -isysroot /workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../i686-linux-musl -D_GNU_SOURCE /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_82cf6.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=pentiumpro -version -o /tmp/ccNbpFjI.s
+        GNU C++17 (GCC) version 13.3.0 (i686-linux-musl)
+        	compiled by GNU C version 13.3.0, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.3.1, isl version none
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/../../lib/gcc/i686-linux-musl/13.3.0/../../../../i686-linux-musl/include/c++/13.3.0"
+        ignoring duplicate directory "/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/../../lib/gcc/i686-linux-musl/13.3.0/../../../../i686-linux-musl/include/c++/13.3.0/i686-linux-musl"
+        ignoring duplicate directory "/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/../../lib/gcc/i686-linux-musl/13.3.0/../../../../i686-linux-musl/include/c++/13.3.0/backward"
+        ignoring nonexistent directory "/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../i686-linux-musl/usr/local/include"
+        ignoring duplicate directory "/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/../../lib/gcc/i686-linux-musl/13.3.0/../../../../i686-linux-musl/include"
+        ignoring nonexistent directory "/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../i686-linux-musl/usr/include"
+        ignoring duplicate directory "/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/../../lib/gcc/i686-linux-musl/13.3.0/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/../../../../i686-linux-musl/include/c++/13.3.0
+         /workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/../../../../i686-linux-musl/include/c++/13.3.0/i686-linux-musl
+         /workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/../../../../i686-linux-musl/include/c++/13.3.0/backward
+         /workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/../../../../i686-linux-musl/include
+         /workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/include
+        End of search list.
+        Compiler executable checksum: 0430afb5b386e2796dda47d78bc58bb5
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_82cf6.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'CMakeFiles/cmTC_82cf6.dir/'
+         /workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/../../../../i686-linux-musl/bin/as -v --32 -o CMakeFiles/cmTC_82cf6.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccNbpFjI.s
+        GNU assembler version 2.44 (i686-linux-musl) using BFD version (GNU Binutils) 2.44
+        COMPILER_PATH=/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../libexec/gcc/i686-linux-musl/13.3.0/:/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../libexec/gcc/:/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/../../../../i686-linux-musl/bin/
+        LIBRARY_PATH=/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/:/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/:/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/../../../../i686-linux-musl/lib/:/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../i686-linux-musl/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_82cf6.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'CMakeFiles/cmTC_82cf6.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_82cf6
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_82cf6.dir/link.txt --verbose=1
+        /workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-g++  -v CMakeFiles/cmTC_82cf6.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_82cf6 
+        Using built-in specs.
+        COLLECT_GCC=/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-g++
+        COLLECT_LTO_WRAPPER=/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../libexec/gcc/i686-linux-musl/13.3.0/lto-wrapper
+        Target: i686-linux-musl
+        Configured with: ../src_gcc/configure --enable-languages=c,c++ CFLAGS='-g0 -Os' CXXFLAGS='-g0 -Os' LDFLAGS='-s -static' --disable-shared --enable-static --with-static-standard-libraries --disable-bootstrap --disable-assembly --disable-werror --target=i686-linux-musl --prefix= --libdir=/lib --disable-multilib --with-sysroot=/i686-linux-musl --enable-tls --disable-libmudflap --disable-libsanitizer --disable-gnu-indirect-function --disable-libmpx --enable-initfini-array --enable-libstdcxx-time=rt --with-build-sysroot=/home/vlad/musl-cross-make/build/local/i686-linux-musl/obj_sysroot AR_FOR_TARGET=/home/vlad/musl-cross-make/build/local/i686-linux-musl/obj_binutils/binutils/ar AS_FOR_TARGET=/home/vlad/musl-cross-make/build/local/i686-linux-musl/obj_binutils/gas/as-new LD_FOR_TARGET=/home/vlad/musl-cross-make/build/local/i686-linux-musl/obj_binutils/ld/ld-new NM_FOR_TARGET=/home/vlad/musl-cross-make/build/local/i686-linux-musl/obj_binutils/binutils/nm-new OBJCOPY_FOR_TARGET=/home/vlad/musl-cross-make/build/local/i686-linux-musl/obj_binutils/binutils/objcopy OBJDUMP_FOR_TARGET=/home/vlad/musl-cross-make/build/local/i686-linux-musl/obj_binutils/binutils/objdump RANLIB_FOR_TARGET=/home/vlad/musl-cross-make/build/local/i686-linux-musl/obj_binutils/binutils/ranlib READELF_FOR_TARGET=/home/vlad/musl-cross-make/build/local/i686-linux-musl/obj_binutils/binutils/readelf STRIP_FOR_TARGET=/home/vlad/musl-cross-make/build/local/i686-linux-musl/obj_binutils/binutils/strip-new --build=x86_64-pc-linux-musl --host=x86_64-pc-linux-musl
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 13.3.0 (GCC) 
+        COMPILER_PATH=/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../libexec/gcc/i686-linux-musl/13.3.0/:/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../libexec/gcc/:/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/../../../../i686-linux-musl/bin/
+        LIBRARY_PATH=/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/:/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/:/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/../../../../i686-linux-musl/lib/:/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../i686-linux-musl/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_82cf6' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'cmTC_82cf6.'
+         /workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../libexec/gcc/i686-linux-musl/13.3.0/collect2 --sysroot=/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../i686-linux-musl --eh-frame-hdr -m elf_i386 -dynamic-linker /lib/ld-musl-i386.so.1 -o cmTC_82cf6 /workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/../../../../i686-linux-musl/lib/crt1.o /workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/../../../../i686-linux-musl/lib/crti.o /workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/crtbegin.o -L/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0 -L/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc -L/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/../../../../i686-linux-musl/lib -L/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../i686-linux-musl/lib CMakeFiles/cmTC_82cf6.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc -lc -lgcc /workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/crtend.o /workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/../../../../i686-linux-musl/lib/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_82cf6' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'cmTC_82cf6.'
+        gmake[5]: Leaving directory '/workspaces/bf/tilck/build/kernel/CMakeFiles/CMakeScratch/TryCompile-tGH9N6'
+        gmake[4]: Leaving directory '/workspaces/bf/tilck/build/kernel/CMakeFiles/CMakeScratch/TryCompile-tGH9N6'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/../../../../i686-linux-musl/include/c++/13.3.0]
+          add: [/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/../../../../i686-linux-musl/include/c++/13.3.0/i686-linux-musl]
+          add: [/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/../../../../i686-linux-musl/include/c++/13.3.0/backward]
+          add: [/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/../../../../i686-linux-musl/include]
+          add: [/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/include]
+        end of search list found
+        collapse include dir [/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/../../../../i686-linux-musl/include/c++/13.3.0] ==> [/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/i686-linux-musl/include/c++/13.3.0]
+        collapse include dir [/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/../../../../i686-linux-musl/include/c++/13.3.0/i686-linux-musl] ==> [/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/i686-linux-musl/include/c++/13.3.0/i686-linux-musl]
+        collapse include dir [/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/../../../../i686-linux-musl/include/c++/13.3.0/backward] ==> [/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/i686-linux-musl/include/c++/13.3.0/backward]
+        collapse include dir [/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/../../../../i686-linux-musl/include] ==> [/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/i686-linux-musl/include]
+        collapse include dir [/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/include] ==> [/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/lib/gcc/i686-linux-musl/13.3.0/include]
+        implicit include dirs: [/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/i686-linux-musl/include/c++/13.3.0;/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/i686-linux-musl/include/c++/13.3.0/i686-linux-musl;/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/i686-linux-musl/include/c++/13.3.0/backward;/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/i686-linux-musl/include;/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/lib/gcc/i686-linux-musl/13.3.0/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:159 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(i686-linux-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: '/workspaces/bf/tilck/build/kernel/CMakeFiles/CMakeScratch/TryCompile-tGH9N6']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_82cf6/fast]
+        ignore line: [gmake[4]: Entering directory '/workspaces/bf/tilck/build/kernel/CMakeFiles/CMakeScratch/TryCompile-tGH9N6']
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_82cf6.dir/build.make CMakeFiles/cmTC_82cf6.dir/build]
+        ignore line: [gmake[5]: Entering directory '/workspaces/bf/tilck/build/kernel/CMakeFiles/CMakeScratch/TryCompile-tGH9N6']
+        ignore line: [Building CXX object CMakeFiles/cmTC_82cf6.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-g++   -v -o CMakeFiles/cmTC_82cf6.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-g++]
+        ignore line: [Target: i686-linux-musl]
+        ignore line: [Configured with: ../src_gcc/configure --enable-languages=c,c++ CFLAGS='-g0 -Os' CXXFLAGS='-g0 -Os' LDFLAGS='-s -static' --disable-shared --enable-static --with-static-standard-libraries --disable-bootstrap --disable-assembly --disable-werror --target=i686-linux-musl --prefix= --libdir=/lib --disable-multilib --with-sysroot=/i686-linux-musl --enable-tls --disable-libmudflap --disable-libsanitizer --disable-gnu-indirect-function --disable-libmpx --enable-initfini-array --enable-libstdcxx-time=rt --with-build-sysroot=/home/vlad/musl-cross-make/build/local/i686-linux-musl/obj_sysroot AR_FOR_TARGET=/home/vlad/musl-cross-make/build/local/i686-linux-musl/obj_binutils/binutils/ar AS_FOR_TARGET=/home/vlad/musl-cross-make/build/local/i686-linux-musl/obj_binutils/gas/as-new LD_FOR_TARGET=/home/vlad/musl-cross-make/build/local/i686-linux-musl/obj_binutils/ld/ld-new NM_FOR_TARGET=/home/vlad/musl-cross-make/build/local/i686-linux-musl/obj_binutils/binutils/nm-new OBJCOPY_FOR_TARGET=/home/vlad/musl-cross-make/build/local/i686-linux-musl/obj_binutils/binutils/objcopy OBJDUMP_FOR_TARGET=/home/vlad/musl-cross-make/build/local/i686-linux-musl/obj_binutils/binutils/objdump RANLIB_FOR_TARGET=/home/vlad/musl-cross-make/build/local/i686-linux-musl/obj_binutils/binutils/ranlib READELF_FOR_TARGET=/home/vlad/musl-cross-make/build/local/i686-linux-musl/obj_binutils/binutils/readelf STRIP_FOR_TARGET=/home/vlad/musl-cross-make/build/local/i686-linux-musl/obj_binutils/binutils/strip-new --build=x86_64-pc-linux-musl --host=x86_64-pc-linux-musl]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 13.3.0 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_82cf6.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'CMakeFiles/cmTC_82cf6.dir/']
+        ignore line: [ /workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../libexec/gcc/i686-linux-musl/13.3.0/cc1plus -quiet -v -iprefix /workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/ -isysroot /workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../i686-linux-musl -D_GNU_SOURCE /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_82cf6.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=pentiumpro -version -o /tmp/ccNbpFjI.s]
+        ignore line: [GNU C++17 (GCC) version 13.3.0 (i686-linux-musl)]
+        ignore line: [	compiled by GNU C version 13.3.0  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.3.1  isl version none]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/../../lib/gcc/i686-linux-musl/13.3.0/../../../../i686-linux-musl/include/c++/13.3.0"]
+        ignore line: [ignoring duplicate directory "/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/../../lib/gcc/i686-linux-musl/13.3.0/../../../../i686-linux-musl/include/c++/13.3.0/i686-linux-musl"]
+        ignore line: [ignoring duplicate directory "/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/../../lib/gcc/i686-linux-musl/13.3.0/../../../../i686-linux-musl/include/c++/13.3.0/backward"]
+        ignore line: [ignoring nonexistent directory "/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../i686-linux-musl/usr/local/include"]
+        ignore line: [ignoring duplicate directory "/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/../../lib/gcc/i686-linux-musl/13.3.0/../../../../i686-linux-musl/include"]
+        ignore line: [ignoring nonexistent directory "/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../i686-linux-musl/usr/include"]
+        ignore line: [ignoring duplicate directory "/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/../../lib/gcc/i686-linux-musl/13.3.0/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/../../../../i686-linux-musl/include/c++/13.3.0]
+        ignore line: [ /workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/../../../../i686-linux-musl/include/c++/13.3.0/i686-linux-musl]
+        ignore line: [ /workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/../../../../i686-linux-musl/include/c++/13.3.0/backward]
+        ignore line: [ /workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/../../../../i686-linux-musl/include]
+        ignore line: [ /workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 0430afb5b386e2796dda47d78bc58bb5]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_82cf6.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'CMakeFiles/cmTC_82cf6.dir/']
+        ignore line: [ /workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/../../../../i686-linux-musl/bin/as -v --32 -o CMakeFiles/cmTC_82cf6.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccNbpFjI.s]
+        ignore line: [GNU assembler version 2.44 (i686-linux-musl) using BFD version (GNU Binutils) 2.44]
+        ignore line: [COMPILER_PATH=/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../libexec/gcc/i686-linux-musl/13.3.0/:/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../libexec/gcc/:/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/../../../../i686-linux-musl/bin/]
+        ignore line: [LIBRARY_PATH=/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/:/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/:/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/../../../../i686-linux-musl/lib/:/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../i686-linux-musl/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_82cf6.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'CMakeFiles/cmTC_82cf6.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_82cf6]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_82cf6.dir/link.txt --verbose=1]
+        ignore line: [/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-g++  -v CMakeFiles/cmTC_82cf6.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_82cf6 ]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-g++]
+        ignore line: [COLLECT_LTO_WRAPPER=/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../libexec/gcc/i686-linux-musl/13.3.0/lto-wrapper]
+        ignore line: [Target: i686-linux-musl]
+        ignore line: [Configured with: ../src_gcc/configure --enable-languages=c,c++ CFLAGS='-g0 -Os' CXXFLAGS='-g0 -Os' LDFLAGS='-s -static' --disable-shared --enable-static --with-static-standard-libraries --disable-bootstrap --disable-assembly --disable-werror --target=i686-linux-musl --prefix= --libdir=/lib --disable-multilib --with-sysroot=/i686-linux-musl --enable-tls --disable-libmudflap --disable-libsanitizer --disable-gnu-indirect-function --disable-libmpx --enable-initfini-array --enable-libstdcxx-time=rt --with-build-sysroot=/home/vlad/musl-cross-make/build/local/i686-linux-musl/obj_sysroot AR_FOR_TARGET=/home/vlad/musl-cross-make/build/local/i686-linux-musl/obj_binutils/binutils/ar AS_FOR_TARGET=/home/vlad/musl-cross-make/build/local/i686-linux-musl/obj_binutils/gas/as-new LD_FOR_TARGET=/home/vlad/musl-cross-make/build/local/i686-linux-musl/obj_binutils/ld/ld-new NM_FOR_TARGET=/home/vlad/musl-cross-make/build/local/i686-linux-musl/obj_binutils/binutils/nm-new OBJCOPY_FOR_TARGET=/home/vlad/musl-cross-make/build/local/i686-linux-musl/obj_binutils/binutils/objcopy OBJDUMP_FOR_TARGET=/home/vlad/musl-cross-make/build/local/i686-linux-musl/obj_binutils/binutils/objdump RANLIB_FOR_TARGET=/home/vlad/musl-cross-make/build/local/i686-linux-musl/obj_binutils/binutils/ranlib READELF_FOR_TARGET=/home/vlad/musl-cross-make/build/local/i686-linux-musl/obj_binutils/binutils/readelf STRIP_FOR_TARGET=/home/vlad/musl-cross-make/build/local/i686-linux-musl/obj_binutils/binutils/strip-new --build=x86_64-pc-linux-musl --host=x86_64-pc-linux-musl]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 13.3.0 (GCC) ]
+        ignore line: [COMPILER_PATH=/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../libexec/gcc/i686-linux-musl/13.3.0/:/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../libexec/gcc/:/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/../../../../i686-linux-musl/bin/]
+        ignore line: [LIBRARY_PATH=/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/:/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/:/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/../../../../i686-linux-musl/lib/:/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../i686-linux-musl/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_82cf6' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'cmTC_82cf6.']
+        link line: [ /workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../libexec/gcc/i686-linux-musl/13.3.0/collect2 --sysroot=/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../i686-linux-musl --eh-frame-hdr -m elf_i386 -dynamic-linker /lib/ld-musl-i386.so.1 -o cmTC_82cf6 /workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/../../../../i686-linux-musl/lib/crt1.o /workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/../../../../i686-linux-musl/lib/crti.o /workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/crtbegin.o -L/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0 -L/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc -L/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/../../../../i686-linux-musl/lib -L/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../i686-linux-musl/lib CMakeFiles/cmTC_82cf6.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc -lc -lgcc /workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/crtend.o /workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/../../../../i686-linux-musl/lib/crtn.o]
+          arg [/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../libexec/gcc/i686-linux-musl/13.3.0/collect2] ==> ignore
+          arg [--sysroot=/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../i686-linux-musl] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_i386] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib/ld-musl-i386.so.1] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_82cf6] ==> ignore
+          arg [/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/../../../../i686-linux-musl/lib/crt1.o] ==> obj [/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/../../../../i686-linux-musl/lib/crt1.o]
+          arg [/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/../../../../i686-linux-musl/lib/crti.o] ==> obj [/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/../../../../i686-linux-musl/lib/crti.o]
+          arg [/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/crtbegin.o] ==> obj [/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/crtbegin.o]
+          arg [-L/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0] ==> dir [/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0]
+          arg [-L/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc] ==> dir [/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc]
+          arg [-L/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/../../../../i686-linux-musl/lib] ==> dir [/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/../../../../i686-linux-musl/lib]
+          arg [-L/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../i686-linux-musl/lib] ==> dir [/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../i686-linux-musl/lib]
+          arg [CMakeFiles/cmTC_82cf6.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/crtend.o] ==> obj [/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/crtend.o]
+          arg [/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/../../../../i686-linux-musl/lib/crtn.o] ==> obj [/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/../../../../i686-linux-musl/lib/crtn.o]
+        collapse obj [/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/../../../../i686-linux-musl/lib/crt1.o] ==> [/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/i686-linux-musl/lib/crt1.o]
+        collapse obj [/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/../../../../i686-linux-musl/lib/crti.o] ==> [/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/i686-linux-musl/lib/crti.o]
+        collapse obj [/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/crtbegin.o] ==> [/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/lib/gcc/i686-linux-musl/13.3.0/crtbegin.o]
+        collapse obj [/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/crtend.o] ==> [/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/lib/gcc/i686-linux-musl/13.3.0/crtend.o]
+        collapse obj [/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/../../../../i686-linux-musl/lib/crtn.o] ==> [/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/i686-linux-musl/lib/crtn.o]
+        collapse library dir [/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0] ==> [/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/lib/gcc/i686-linux-musl/13.3.0]
+        collapse library dir [/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc] ==> [/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/lib/gcc]
+        collapse library dir [/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../lib/gcc/i686-linux-musl/13.3.0/../../../../i686-linux-musl/lib] ==> [/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/i686-linux-musl/lib]
+        collapse library dir [/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/../i686-linux-musl/lib] ==> [/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/i686-linux-musl/lib]
+        implicit libs: [stdc++;m;gcc;c;gcc]
+        implicit objs: [/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/i686-linux-musl/lib/crt1.o;/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/i686-linux-musl/lib/crti.o;/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/lib/gcc/i686-linux-musl/13.3.0/crtbegin.o;/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/lib/gcc/i686-linux-musl/13.3.0/crtend.o;/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/i686-linux-musl/lib/crtn.o]
+        implicit dirs: [/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/lib/gcc/i686-linux-musl/13.3.0;/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/lib/gcc;/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/i686-linux-musl/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "/workspaces/bf/tilck/modules/acpi/acpi.cmake:4 (CHECK_C_COMPILER_FLAG)"
+      - "/workspaces/bf/tilck/other/cmake/build_modules.cmake:222 (include)"
+      - "arch/i386/CMakeLists.txt:120 (build_all_modules)"
+    checks:
+      - "Performing Test FLAG_WNO_UNUSED_BUT_SET_VAR"
+    directories:
+      source: "/workspaces/bf/tilck/build/kernel/CMakeFiles/CMakeScratch/TryCompile-wX25nN"
+      binary: "/workspaces/bf/tilck/build/kernel/CMakeFiles/CMakeScratch/TryCompile-wX25nN"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-march=i686"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "FLAG_WNO_UNUSED_BUT_SET_VAR"
+      cached: true
+      stdout: |
+        Change Dir: '/workspaces/bf/tilck/build/kernel/CMakeFiles/CMakeScratch/TryCompile-wX25nN'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_9e509/fast
+        gmake[4]: Entering directory '/workspaces/bf/tilck/build/kernel/CMakeFiles/CMakeScratch/TryCompile-wX25nN'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_9e509.dir/build.make CMakeFiles/cmTC_9e509.dir/build
+        gmake[5]: Entering directory '/workspaces/bf/tilck/build/kernel/CMakeFiles/CMakeScratch/TryCompile-wX25nN'
+        Building C object CMakeFiles/cmTC_9e509.dir/src.c.o
+        /workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-gcc -DFLAG_WNO_UNUSED_BUT_SET_VAR  -march=i686    -Wno-unused-but-set-variable -o CMakeFiles/cmTC_9e509.dir/src.c.o -c /workspaces/bf/tilck/build/kernel/CMakeFiles/CMakeScratch/TryCompile-wX25nN/src.c
+        Linking C executable cmTC_9e509
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9e509.dir/link.txt --verbose=1
+        /workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-gcc -march=i686  CMakeFiles/cmTC_9e509.dir/src.c.o -o cmTC_9e509 
+        gmake[5]: Leaving directory '/workspaces/bf/tilck/build/kernel/CMakeFiles/CMakeScratch/TryCompile-wX25nN'
+        gmake[4]: Leaving directory '/workspaces/bf/tilck/build/kernel/CMakeFiles/CMakeScratch/TryCompile-wX25nN'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "/workspaces/bf/tilck/modules/acpi/acpi.cmake:9 (CHECK_C_COMPILER_FLAG)"
+      - "/workspaces/bf/tilck/other/cmake/build_modules.cmake:222 (include)"
+      - "arch/i386/CMakeLists.txt:120 (build_all_modules)"
+    checks:
+      - "Performing Test FLAG_NO_NULL_POINTER_SUBTRACTION"
+    directories:
+      source: "/workspaces/bf/tilck/build/kernel/CMakeFiles/CMakeScratch/TryCompile-Xvpx67"
+      binary: "/workspaces/bf/tilck/build/kernel/CMakeFiles/CMakeScratch/TryCompile-Xvpx67"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-march=i686"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "FLAG_NO_NULL_POINTER_SUBTRACTION"
+      cached: true
+      stdout: |
+        Change Dir: '/workspaces/bf/tilck/build/kernel/CMakeFiles/CMakeScratch/TryCompile-Xvpx67'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ecd1c/fast
+        gmake[4]: Entering directory '/workspaces/bf/tilck/build/kernel/CMakeFiles/CMakeScratch/TryCompile-Xvpx67'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_ecd1c.dir/build.make CMakeFiles/cmTC_ecd1c.dir/build
+        gmake[5]: Entering directory '/workspaces/bf/tilck/build/kernel/CMakeFiles/CMakeScratch/TryCompile-Xvpx67'
+        Building C object CMakeFiles/cmTC_ecd1c.dir/src.c.o
+        /workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-gcc -DFLAG_NO_NULL_POINTER_SUBTRACTION  -march=i686    -Wno-null-pointer-subtraction -o CMakeFiles/cmTC_ecd1c.dir/src.c.o -c /workspaces/bf/tilck/build/kernel/CMakeFiles/CMakeScratch/TryCompile-Xvpx67/src.c
+        Linking C executable cmTC_ecd1c
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ecd1c.dir/link.txt --verbose=1
+        /workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-gcc -march=i686  CMakeFiles/cmTC_ecd1c.dir/src.c.o -o cmTC_ecd1c 
+        gmake[5]: Leaving directory '/workspaces/bf/tilck/build/kernel/CMakeFiles/CMakeScratch/TryCompile-Xvpx67'
+        gmake[4]: Leaving directory '/workspaces/bf/tilck/build/kernel/CMakeFiles/CMakeScratch/TryCompile-Xvpx67'
+        
+      exitCode: 0
+...

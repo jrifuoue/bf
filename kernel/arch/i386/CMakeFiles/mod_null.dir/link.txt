@@ -1,0 +1,2 @@
+/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-ar qc libmod_null.a CMakeFiles/mod_null.dir/workspaces/bf/tilck/modules/null/null.c.o
+/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-ranlib libmod_null.a

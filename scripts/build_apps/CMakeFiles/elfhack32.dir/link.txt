@@ -1,0 +1,1 @@
+/usr/bin/gcc  -O3 -ggdb CMakeFiles/elfhack32.dir/elfhack.c.o -o elfhack32 

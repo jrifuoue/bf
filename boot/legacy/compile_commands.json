@@ -1,0 +1,152 @@
+[
+{
+  "directory": "/workspaces/bf/tilck/build/boot/legacy",
+  "command": "/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-gcc  -I/workspaces/bf/tilck/build -I/workspaces/bf/tilck/include -I/workspaces/bf/tilck/include/system_headers -g -ffreestanding -nostdinc -o CMakeFiles/early_boot.dir/boot.S.o -c /workspaces/bf/tilck/boot/legacy/boot.S",
+  "file": "/workspaces/bf/tilck/boot/legacy/boot.S",
+  "output": "CMakeFiles/early_boot.dir/boot.S.o"
+},
+{
+  "directory": "/workspaces/bf/tilck/build/boot/legacy",
+  "command": "/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-gcc  -I/workspaces/bf/tilck/build -I/workspaces/bf/tilck/include -I/workspaces/bf/tilck/include/system_headers -g -ffreestanding -nostdinc -o CMakeFiles/early_boot.dir/boot_enable_a20.S.o -c /workspaces/bf/tilck/boot/legacy/boot_enable_a20.S",
+  "file": "/workspaces/bf/tilck/boot/legacy/boot_enable_a20.S",
+  "output": "CMakeFiles/early_boot.dir/boot_enable_a20.S.o"
+},
+{
+  "directory": "/workspaces/bf/tilck/build/boot/legacy/stage3",
+  "command": "/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-gcc  -I/workspaces/bf/tilck/build -I/workspaces/bf/tilck/include -I/workspaces/bf/tilck/include/system_headers -g -D__TILCK_BOOTLOADER__ -static -fno-pic -mno-red-zone -DTILCK_DEBUG_BUILD -ggdb -fno-omit-frame-pointer -O0 -fno-inline-functions -Wall -Wextra -Werror -Wshadow -Wvla -Wcast-align -Wno-unused-function -Wno-unused-parameter -Wno-unused-label -ffreestanding -fno-builtin -fno-strict-aliasing -fwrapv -Wundef -fno-common -fno-exceptions -fno-stack-protector -fno-asynchronous-unwind-tables -mno-red-zone -mgeneral-regs-only -o CMakeFiles/elf_stage3_unstripped.dir/entry.S.o -c /workspaces/bf/tilck/boot/legacy/stage3/entry.S",
+  "file": "/workspaces/bf/tilck/boot/legacy/stage3/entry.S",
+  "output": "stage3/CMakeFiles/elf_stage3_unstripped.dir/entry.S.o"
+},
+{
+  "directory": "/workspaces/bf/tilck/build/boot/legacy/stage3",
+  "command": "/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-gcc  -I/workspaces/bf/tilck/build -I/workspaces/bf/tilck/include -I/workspaces/bf/tilck/include/system_headers -g -D__TILCK_BOOTLOADER__ -static -fno-pic -mno-red-zone -DTILCK_DEBUG_BUILD -ggdb -fno-omit-frame-pointer -O0 -fno-inline-functions -Wall -Wextra -Werror -Wshadow -Wvla -Wcast-align -Wno-unused-function -Wno-unused-parameter -Wno-unused-label -ffreestanding -fno-builtin -fno-strict-aliasing -fwrapv -Wundef -fno-common -fno-exceptions -fno-stack-protector -fno-asynchronous-unwind-tables -mno-red-zone -mgeneral-regs-only -o CMakeFiles/elf_stage3_unstripped.dir/rm_calls.S.o -c /workspaces/bf/tilck/boot/legacy/stage3/rm_calls.S",
+  "file": "/workspaces/bf/tilck/boot/legacy/stage3/rm_calls.S",
+  "output": "stage3/CMakeFiles/elf_stage3_unstripped.dir/rm_calls.S.o"
+},
+{
+  "directory": "/workspaces/bf/tilck/build/boot/legacy/stage3",
+  "command": "/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-gcc  -I/workspaces/bf/tilck/build -I/workspaces/bf/tilck/include -I/workspaces/bf/tilck/include/system_headers -g -D__TILCK_BOOTLOADER__ -static -fno-pic -mno-red-zone -DTILCK_DEBUG_BUILD -ggdb -fno-omit-frame-pointer -O0 -fno-inline-functions -Wall -Wextra -Werror -Wshadow -Wvla -Wcast-align -Wno-unused-function -Wno-unused-parameter -Wno-unused-label -ffreestanding -fno-builtin -fno-strict-aliasing -fwrapv -Wundef -fno-common -fno-exceptions -fno-stack-protector -fno-asynchronous-unwind-tables -mno-red-zone -mgeneral-regs-only -o CMakeFiles/elf_stage3_unstripped.dir/workspaces/bf/tilck/boot/common/basic_printk.c.o -c /workspaces/bf/tilck/boot/common/basic_printk.c",
+  "file": "/workspaces/bf/tilck/boot/common/basic_printk.c",
+  "output": "stage3/CMakeFiles/elf_stage3_unstripped.dir/workspaces/bf/tilck/boot/common/basic_printk.c.o"
+},
+{
+  "directory": "/workspaces/bf/tilck/build/boot/legacy/stage3",
+  "command": "/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-gcc  -I/workspaces/bf/tilck/build -I/workspaces/bf/tilck/include -I/workspaces/bf/tilck/include/system_headers -g -D__TILCK_BOOTLOADER__ -static -fno-pic -mno-red-zone -DTILCK_DEBUG_BUILD -ggdb -fno-omit-frame-pointer -O0 -fno-inline-functions -Wall -Wextra -Werror -Wshadow -Wvla -Wcast-align -Wno-unused-function -Wno-unused-parameter -Wno-unused-label -ffreestanding -fno-builtin -fno-strict-aliasing -fwrapv -Wundef -fno-common -fno-exceptions -fno-stack-protector -fno-asynchronous-unwind-tables -mno-red-zone -mgeneral-regs-only -o CMakeFiles/elf_stage3_unstripped.dir/workspaces/bf/tilck/boot/common/gfx.c.o -c /workspaces/bf/tilck/boot/common/gfx.c",
+  "file": "/workspaces/bf/tilck/boot/common/gfx.c",
+  "output": "stage3/CMakeFiles/elf_stage3_unstripped.dir/workspaces/bf/tilck/boot/common/gfx.c.o"
+},
+{
+  "directory": "/workspaces/bf/tilck/build/boot/legacy/stage3",
+  "command": "/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-gcc  -I/workspaces/bf/tilck/build -I/workspaces/bf/tilck/include -I/workspaces/bf/tilck/include/system_headers -g -D__TILCK_BOOTLOADER__ -static -fno-pic -mno-red-zone -DTILCK_DEBUG_BUILD -ggdb -fno-omit-frame-pointer -O0 -fno-inline-functions -Wall -Wextra -Werror -Wshadow -Wvla -Wcast-align -Wno-unused-function -Wno-unused-parameter -Wno-unused-label -ffreestanding -fno-builtin -fno-strict-aliasing -fwrapv -Wundef -fno-common -fno-exceptions -fno-stack-protector -fno-asynchronous-unwind-tables -mno-red-zone -mgeneral-regs-only -o CMakeFiles/elf_stage3_unstripped.dir/workspaces/bf/tilck/boot/common/main_common_logic.c.o -c /workspaces/bf/tilck/boot/common/main_common_logic.c",
+  "file": "/workspaces/bf/tilck/boot/common/main_common_logic.c",
+  "output": "stage3/CMakeFiles/elf_stage3_unstripped.dir/workspaces/bf/tilck/boot/common/main_common_logic.c.o"
+},
+{
+  "directory": "/workspaces/bf/tilck/build/boot/legacy/stage3",
+  "command": "/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-gcc  -I/workspaces/bf/tilck/build -I/workspaces/bf/tilck/include -I/workspaces/bf/tilck/include/system_headers -g -D__TILCK_BOOTLOADER__ -static -fno-pic -mno-red-zone -DTILCK_DEBUG_BUILD -ggdb -fno-omit-frame-pointer -O0 -fno-inline-functions -Wall -Wextra -Werror -Wshadow -Wvla -Wcast-align -Wno-unused-function -Wno-unused-parameter -Wno-unused-label -ffreestanding -fno-builtin -fno-strict-aliasing -fwrapv -Wundef -fno-common -fno-exceptions -fno-stack-protector -fno-asynchronous-unwind-tables -mno-red-zone -mgeneral-regs-only -o CMakeFiles/elf_stage3_unstripped.dir/workspaces/bf/tilck/boot/common/simple_elf_loader.c.o -c /workspaces/bf/tilck/boot/common/simple_elf_loader.c",
+  "file": "/workspaces/bf/tilck/boot/common/simple_elf_loader.c",
+  "output": "stage3/CMakeFiles/elf_stage3_unstripped.dir/workspaces/bf/tilck/boot/common/simple_elf_loader.c.o"
+},
+{
+  "directory": "/workspaces/bf/tilck/build/boot/legacy/stage3",
+  "command": "/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-gcc  -I/workspaces/bf/tilck/build -I/workspaces/bf/tilck/include -I/workspaces/bf/tilck/include/system_headers -g -D__TILCK_BOOTLOADER__ -static -fno-pic -mno-red-zone -DTILCK_DEBUG_BUILD -ggdb -fno-omit-frame-pointer -O0 -fno-inline-functions -Wall -Wextra -Werror -Wshadow -Wvla -Wcast-align -Wno-unused-function -Wno-unused-parameter -Wno-unused-label -ffreestanding -fno-builtin -fno-strict-aliasing -fwrapv -Wundef -fno-common -fno-exceptions -fno-stack-protector -fno-asynchronous-unwind-tables -mno-red-zone -mgeneral-regs-only -o CMakeFiles/elf_stage3_unstripped.dir/workspaces/bf/tilck/boot/common/stdio.c.o -c /workspaces/bf/tilck/boot/common/stdio.c",
+  "file": "/workspaces/bf/tilck/boot/common/stdio.c",
+  "output": "stage3/CMakeFiles/elf_stage3_unstripped.dir/workspaces/bf/tilck/boot/common/stdio.c.o"
+},
+{
+  "directory": "/workspaces/bf/tilck/build/boot/legacy/stage3",
+  "command": "/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-gcc  -I/workspaces/bf/tilck/build -I/workspaces/bf/tilck/include -I/workspaces/bf/tilck/include/system_headers -g -D__TILCK_BOOTLOADER__ -static -fno-pic -mno-red-zone -DTILCK_DEBUG_BUILD -ggdb -fno-omit-frame-pointer -O0 -fno-inline-functions -Wall -Wextra -Werror -Wshadow -Wvla -Wcast-align -Wno-unused-function -Wno-unused-parameter -Wno-unused-label -ffreestanding -fno-builtin -fno-strict-aliasing -fwrapv -Wundef -fno-common -fno-exceptions -fno-stack-protector -fno-asynchronous-unwind-tables -mno-red-zone -mgeneral-regs-only -o CMakeFiles/elf_stage3_unstripped.dir/basic_term.c.o -c /workspaces/bf/tilck/boot/legacy/stage3/basic_term.c",
+  "file": "/workspaces/bf/tilck/boot/legacy/stage3/basic_term.c",
+  "output": "stage3/CMakeFiles/elf_stage3_unstripped.dir/basic_term.c.o"
+},
+{
+  "directory": "/workspaces/bf/tilck/build/boot/legacy/stage3",
+  "command": "/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-gcc  -I/workspaces/bf/tilck/build -I/workspaces/bf/tilck/include -I/workspaces/bf/tilck/include/system_headers -g -D__TILCK_BOOTLOADER__ -static -fno-pic -mno-red-zone -DTILCK_DEBUG_BUILD -ggdb -fno-omit-frame-pointer -O0 -fno-inline-functions -Wall -Wextra -Werror -Wshadow -Wvla -Wcast-align -Wno-unused-function -Wno-unused-parameter -Wno-unused-label -ffreestanding -fno-builtin -fno-strict-aliasing -fwrapv -Wundef -fno-common -fno-exceptions -fno-stack-protector -fno-asynchronous-unwind-tables -mno-red-zone -mgeneral-regs-only -o CMakeFiles/elf_stage3_unstripped.dir/intf.c.o -c /workspaces/bf/tilck/boot/legacy/stage3/intf.c",
+  "file": "/workspaces/bf/tilck/boot/legacy/stage3/intf.c",
+  "output": "stage3/CMakeFiles/elf_stage3_unstripped.dir/intf.c.o"
+},
+{
+  "directory": "/workspaces/bf/tilck/build/boot/legacy/stage3",
+  "command": "/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-gcc  -I/workspaces/bf/tilck/build -I/workspaces/bf/tilck/include -I/workspaces/bf/tilck/include/system_headers -g -D__TILCK_BOOTLOADER__ -static -fno-pic -mno-red-zone -DTILCK_DEBUG_BUILD -ggdb -fno-omit-frame-pointer -O0 -fno-inline-functions -Wall -Wextra -Werror -Wshadow -Wvla -Wcast-align -Wno-unused-function -Wno-unused-parameter -Wno-unused-label -ffreestanding -fno-builtin -fno-strict-aliasing -fwrapv -Wundef -fno-common -fno-exceptions -fno-stack-protector -fno-asynchronous-unwind-tables -mno-red-zone -mgeneral-regs-only -o CMakeFiles/elf_stage3_unstripped.dir/main.c.o -c /workspaces/bf/tilck/boot/legacy/stage3/main.c",
+  "file": "/workspaces/bf/tilck/boot/legacy/stage3/main.c",
+  "output": "stage3/CMakeFiles/elf_stage3_unstripped.dir/main.c.o"
+},
+{
+  "directory": "/workspaces/bf/tilck/build/boot/legacy/stage3",
+  "command": "/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-gcc  -I/workspaces/bf/tilck/build -I/workspaces/bf/tilck/include -I/workspaces/bf/tilck/include/system_headers -g -D__TILCK_BOOTLOADER__ -static -fno-pic -mno-red-zone -DTILCK_DEBUG_BUILD -ggdb -fno-omit-frame-pointer -O0 -fno-inline-functions -Wall -Wextra -Werror -Wshadow -Wvla -Wcast-align -Wno-unused-function -Wno-unused-parameter -Wno-unused-label -ffreestanding -fno-builtin -fno-strict-aliasing -fwrapv -Wundef -fno-common -fno-exceptions -fno-stack-protector -fno-asynchronous-unwind-tables -mno-red-zone -mgeneral-regs-only -o CMakeFiles/elf_stage3_unstripped.dir/mm.c.o -c /workspaces/bf/tilck/boot/legacy/stage3/mm.c",
+  "file": "/workspaces/bf/tilck/boot/legacy/stage3/mm.c",
+  "output": "stage3/CMakeFiles/elf_stage3_unstripped.dir/mm.c.o"
+},
+{
+  "directory": "/workspaces/bf/tilck/build/boot/legacy/stage3",
+  "command": "/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-gcc  -I/workspaces/bf/tilck/build -I/workspaces/bf/tilck/include -I/workspaces/bf/tilck/include/system_headers -g -D__TILCK_BOOTLOADER__ -static -fno-pic -mno-red-zone -DTILCK_DEBUG_BUILD -ggdb -fno-omit-frame-pointer -O0 -fno-inline-functions -Wall -Wextra -Werror -Wshadow -Wvla -Wcast-align -Wno-unused-function -Wno-unused-parameter -Wno-unused-label -ffreestanding -fno-builtin -fno-strict-aliasing -fwrapv -Wundef -fno-common -fno-exceptions -fno-stack-protector -fno-asynchronous-unwind-tables -mno-red-zone -mgeneral-regs-only -o CMakeFiles/elf_stage3_unstripped.dir/multiboot.c.o -c /workspaces/bf/tilck/boot/legacy/stage3/multiboot.c",
+  "file": "/workspaces/bf/tilck/boot/legacy/stage3/multiboot.c",
+  "output": "stage3/CMakeFiles/elf_stage3_unstripped.dir/multiboot.c.o"
+},
+{
+  "directory": "/workspaces/bf/tilck/build/boot/legacy/stage3",
+  "command": "/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-gcc  -I/workspaces/bf/tilck/build -I/workspaces/bf/tilck/include -I/workspaces/bf/tilck/include/system_headers -g -D__TILCK_BOOTLOADER__ -static -fno-pic -mno-red-zone -DTILCK_DEBUG_BUILD -ggdb -fno-omit-frame-pointer -O0 -fno-inline-functions -Wall -Wextra -Werror -Wshadow -Wvla -Wcast-align -Wno-unused-function -Wno-unused-parameter -Wno-unused-label -ffreestanding -fno-builtin -fno-strict-aliasing -fwrapv -Wundef -fno-common -fno-exceptions -fno-stack-protector -fno-asynchronous-unwind-tables -mno-red-zone -mgeneral-regs-only -o CMakeFiles/elf_stage3_unstripped.dir/panic.c.o -c /workspaces/bf/tilck/boot/legacy/stage3/panic.c",
+  "file": "/workspaces/bf/tilck/boot/legacy/stage3/panic.c",
+  "output": "stage3/CMakeFiles/elf_stage3_unstripped.dir/panic.c.o"
+},
+{
+  "directory": "/workspaces/bf/tilck/build/boot/legacy/stage3",
+  "command": "/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-gcc  -I/workspaces/bf/tilck/build -I/workspaces/bf/tilck/include -I/workspaces/bf/tilck/include/system_headers -g -D__TILCK_BOOTLOADER__ -static -fno-pic -mno-red-zone -DTILCK_DEBUG_BUILD -ggdb -fno-omit-frame-pointer -O0 -fno-inline-functions -Wall -Wextra -Werror -Wshadow -Wvla -Wcast-align -Wno-unused-function -Wno-unused-parameter -Wno-unused-label -ffreestanding -fno-builtin -fno-strict-aliasing -fwrapv -Wundef -fno-common -fno-exceptions -fno-stack-protector -fno-asynchronous-unwind-tables -mno-red-zone -mgeneral-regs-only -o CMakeFiles/elf_stage3_unstripped.dir/ramdisk.c.o -c /workspaces/bf/tilck/boot/legacy/stage3/ramdisk.c",
+  "file": "/workspaces/bf/tilck/boot/legacy/stage3/ramdisk.c",
+  "output": "stage3/CMakeFiles/elf_stage3_unstripped.dir/ramdisk.c.o"
+},
+{
+  "directory": "/workspaces/bf/tilck/build/boot/legacy/stage3",
+  "command": "/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-gcc  -I/workspaces/bf/tilck/build -I/workspaces/bf/tilck/include -I/workspaces/bf/tilck/include/system_headers -g -D__TILCK_BOOTLOADER__ -static -fno-pic -mno-red-zone -DTILCK_DEBUG_BUILD -ggdb -fno-omit-frame-pointer -O0 -fno-inline-functions -Wall -Wextra -Werror -Wshadow -Wvla -Wcast-align -Wno-unused-function -Wno-unused-parameter -Wno-unused-label -ffreestanding -fno-builtin -fno-strict-aliasing -fwrapv -Wundef -fno-common -fno-exceptions -fno-stack-protector -fno-asynchronous-unwind-tables -mno-red-zone -mgeneral-regs-only -o CMakeFiles/elf_stage3_unstripped.dir/realmode_call.c.o -c /workspaces/bf/tilck/boot/legacy/stage3/realmode_call.c",
+  "file": "/workspaces/bf/tilck/boot/legacy/stage3/realmode_call.c",
+  "output": "stage3/CMakeFiles/elf_stage3_unstripped.dir/realmode_call.c.o"
+},
+{
+  "directory": "/workspaces/bf/tilck/build/boot/legacy/stage3",
+  "command": "/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-gcc  -I/workspaces/bf/tilck/build -I/workspaces/bf/tilck/include -I/workspaces/bf/tilck/include/system_headers -g -D__TILCK_BOOTLOADER__ -static -fno-pic -mno-red-zone -DTILCK_DEBUG_BUILD -ggdb -fno-omit-frame-pointer -O0 -fno-inline-functions -Wall -Wextra -Werror -Wshadow -Wvla -Wcast-align -Wno-unused-function -Wno-unused-parameter -Wno-unused-label -ffreestanding -fno-builtin -fno-strict-aliasing -fwrapv -Wundef -fno-common -fno-exceptions -fno-stack-protector -fno-asynchronous-unwind-tables -mno-red-zone -mgeneral-regs-only -o CMakeFiles/elf_stage3_unstripped.dir/vbe.c.o -c /workspaces/bf/tilck/boot/legacy/stage3/vbe.c",
+  "file": "/workspaces/bf/tilck/boot/legacy/stage3/vbe.c",
+  "output": "stage3/CMakeFiles/elf_stage3_unstripped.dir/vbe.c.o"
+},
+{
+  "directory": "/workspaces/bf/tilck/build/boot/legacy/stage3",
+  "command": "/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-gcc  -I/workspaces/bf/tilck/build -I/workspaces/bf/tilck/include -I/workspaces/bf/tilck/include/system_headers -g -D__TILCK_BOOTLOADER__ -static -fno-pic -mno-red-zone -DTILCK_DEBUG_BUILD -ggdb -fno-omit-frame-pointer -O0 -fno-inline-functions -Wall -Wextra -Werror -Wshadow -Wvla -Wcast-align -Wno-unused-function -Wno-unused-parameter -Wno-unused-label -ffreestanding -fno-builtin -fno-strict-aliasing -fwrapv -Wundef -fno-common -fno-exceptions -fno-stack-protector -fno-asynchronous-unwind-tables -mno-red-zone -mgeneral-regs-only -o CMakeFiles/elf_stage3_unstripped.dir/workspaces/bf/tilck/common/arch/generic_x86/cpu_features.c.o -c /workspaces/bf/tilck/common/arch/generic_x86/cpu_features.c",
+  "file": "/workspaces/bf/tilck/common/arch/generic_x86/cpu_features.c",
+  "output": "stage3/CMakeFiles/elf_stage3_unstripped.dir/workspaces/bf/tilck/common/arch/generic_x86/cpu_features.c.o"
+},
+{
+  "directory": "/workspaces/bf/tilck/build/boot/legacy/stage3",
+  "command": "/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-gcc  -I/workspaces/bf/tilck/build -I/workspaces/bf/tilck/include -I/workspaces/bf/tilck/include/system_headers -g -D__TILCK_BOOTLOADER__ -static -fno-pic -mno-red-zone -DTILCK_DEBUG_BUILD -ggdb -fno-omit-frame-pointer -O0 -fno-inline-functions -Wall -Wextra -Werror -Wshadow -Wvla -Wcast-align -Wno-unused-function -Wno-unused-parameter -Wno-unused-label -ffreestanding -fno-builtin -fno-strict-aliasing -fwrapv -Wundef -fno-common -fno-exceptions -fno-stack-protector -fno-asynchronous-unwind-tables -mno-red-zone -mgeneral-regs-only -o CMakeFiles/elf_stage3_unstripped.dir/workspaces/bf/tilck/common/asserts.c.o -c /workspaces/bf/tilck/common/asserts.c",
+  "file": "/workspaces/bf/tilck/common/asserts.c",
+  "output": "stage3/CMakeFiles/elf_stage3_unstripped.dir/workspaces/bf/tilck/common/asserts.c.o"
+},
+{
+  "directory": "/workspaces/bf/tilck/build/boot/legacy/stage3",
+  "command": "/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-gcc  -I/workspaces/bf/tilck/build -I/workspaces/bf/tilck/include -I/workspaces/bf/tilck/include/system_headers -g -D__TILCK_BOOTLOADER__ -static -fno-pic -mno-red-zone -DTILCK_DEBUG_BUILD -ggdb -fno-omit-frame-pointer -O0 -fno-inline-functions -Wall -Wextra -Werror -Wshadow -Wvla -Wcast-align -Wno-unused-function -Wno-unused-parameter -Wno-unused-label -ffreestanding -fno-builtin -fno-strict-aliasing -fwrapv -Wundef -fno-common -fno-exceptions -fno-stack-protector -fno-asynchronous-unwind-tables -mno-red-zone -mgeneral-regs-only -o CMakeFiles/elf_stage3_unstripped.dir/workspaces/bf/tilck/common/fat32_base.c.o -c /workspaces/bf/tilck/common/fat32_base.c",
+  "file": "/workspaces/bf/tilck/common/fat32_base.c",
+  "output": "stage3/CMakeFiles/elf_stage3_unstripped.dir/workspaces/bf/tilck/common/fat32_base.c.o"
+},
+{
+  "directory": "/workspaces/bf/tilck/build/boot/legacy/stage3",
+  "command": "/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-g++  -I/workspaces/bf/tilck/build -I/workspaces/bf/tilck/include -I/workspaces/bf/tilck/include/system_headers -g -D__TILCK_BOOTLOADER__ -static -fno-pic -mno-red-zone -DTILCK_DEBUG_BUILD -ggdb -fno-omit-frame-pointer -O0 -fno-inline-functions -Wall -Wextra -Werror -Wshadow -Wvla -Wcast-align -Wno-unused-function -Wno-unused-parameter -Wno-unused-label -ffreestanding -fno-builtin -fno-strict-aliasing -fwrapv -Wundef -fno-common -fno-exceptions -fno-stack-protector -fno-asynchronous-unwind-tables -mno-red-zone -mgeneral-regs-only -o CMakeFiles/elf_stage3_unstripped.dir/workspaces/bf/tilck/common/itoa.cpp.o -c /workspaces/bf/tilck/common/itoa.cpp",
+  "file": "/workspaces/bf/tilck/common/itoa.cpp",
+  "output": "stage3/CMakeFiles/elf_stage3_unstripped.dir/workspaces/bf/tilck/common/itoa.cpp.o"
+},
+{
+  "directory": "/workspaces/bf/tilck/build/boot/legacy/stage3",
+  "command": "/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-gcc  -I/workspaces/bf/tilck/build -I/workspaces/bf/tilck/include -I/workspaces/bf/tilck/include/system_headers -g -D__TILCK_BOOTLOADER__ -static -fno-pic -mno-red-zone -DTILCK_DEBUG_BUILD -ggdb -fno-omit-frame-pointer -O0 -fno-inline-functions -Wall -Wextra -Werror -Wshadow -Wvla -Wcast-align -Wno-unused-function -Wno-unused-parameter -Wno-unused-label -ffreestanding -fno-builtin -fno-strict-aliasing -fwrapv -Wundef -fno-common -fno-exceptions -fno-stack-protector -fno-asynchronous-unwind-tables -mno-red-zone -mgeneral-regs-only -o CMakeFiles/elf_stage3_unstripped.dir/workspaces/bf/tilck/common/misc.c.o -c /workspaces/bf/tilck/common/misc.c",
+  "file": "/workspaces/bf/tilck/common/misc.c",
+  "output": "stage3/CMakeFiles/elf_stage3_unstripped.dir/workspaces/bf/tilck/common/misc.c.o"
+},
+{
+  "directory": "/workspaces/bf/tilck/build/boot/legacy/stage3",
+  "command": "/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-gcc  -I/workspaces/bf/tilck/build -I/workspaces/bf/tilck/include -I/workspaces/bf/tilck/include/system_headers -g -D__TILCK_BOOTLOADER__ -static -fno-pic -mno-red-zone -DTILCK_DEBUG_BUILD -ggdb -fno-omit-frame-pointer -O0 -fno-inline-functions -Wall -Wextra -Werror -Wshadow -Wvla -Wcast-align -Wno-unused-function -Wno-unused-parameter -Wno-unused-label -ffreestanding -fno-builtin -fno-strict-aliasing -fwrapv -Wundef -fno-common -fno-exceptions -fno-stack-protector -fno-asynchronous-unwind-tables -mno-red-zone -mgeneral-regs-only -o CMakeFiles/elf_stage3_unstripped.dir/workspaces/bf/tilck/common/panic.c.o -c /workspaces/bf/tilck/common/panic.c",
+  "file": "/workspaces/bf/tilck/common/panic.c",
+  "output": "stage3/CMakeFiles/elf_stage3_unstripped.dir/workspaces/bf/tilck/common/panic.c.o"
+},
+{
+  "directory": "/workspaces/bf/tilck/build/boot/legacy/stage3",
+  "command": "/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-gcc  -I/workspaces/bf/tilck/build -I/workspaces/bf/tilck/include -I/workspaces/bf/tilck/include/system_headers -g -D__TILCK_BOOTLOADER__ -static -fno-pic -mno-red-zone -DTILCK_DEBUG_BUILD -ggdb -fno-omit-frame-pointer -O0 -fno-inline-functions -Wall -Wextra -Werror -Wshadow -Wvla -Wcast-align -Wno-unused-function -Wno-unused-parameter -Wno-unused-label -ffreestanding -fno-builtin -fno-strict-aliasing -fwrapv -Wundef -fno-common -fno-exceptions -fno-stack-protector -fno-asynchronous-unwind-tables -mno-red-zone -mgeneral-regs-only -o CMakeFiles/elf_stage3_unstripped.dir/workspaces/bf/tilck/common/string_util.c.o -c /workspaces/bf/tilck/common/string_util.c",
+  "file": "/workspaces/bf/tilck/common/string_util.c",
+  "output": "stage3/CMakeFiles/elf_stage3_unstripped.dir/workspaces/bf/tilck/common/string_util.c.o"
+}
+]

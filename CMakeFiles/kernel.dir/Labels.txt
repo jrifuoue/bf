@@ -1,0 +1,15 @@
+# Target labels
+ kernel
+# Source files and their labels
+/workspaces/bf/tilck/build/CMakeFiles/kernel
+/workspaces/bf/tilck/build/CMakeFiles/kernel.rule
+/workspaces/bf/tilck/build/CMakeFiles/kernel-complete.rule
+/workspaces/bf/tilck/build/kernel-prefix/src/kernel-stamp/kernel-build.rule
+/workspaces/bf/tilck/build/kernel-prefix/src/kernel-stamp/kernel-config_dep.rule
+/workspaces/bf/tilck/build/kernel-prefix/src/kernel-stamp/kernel-configure.rule
+/workspaces/bf/tilck/build/kernel-prefix/src/kernel-stamp/kernel-download.rule
+/workspaces/bf/tilck/build/kernel-prefix/src/kernel-stamp/kernel-install.rule
+/workspaces/bf/tilck/build/kernel-prefix/src/kernel-stamp/kernel-mkdir.rule
+/workspaces/bf/tilck/build/kernel-prefix/src/kernel-stamp/kernel-patch.rule
+/workspaces/bf/tilck/build/kernel-prefix/src/kernel-stamp/kernel-tools_dep.rule
+/workspaces/bf/tilck/build/kernel-prefix/src/kernel-stamp/kernel-update.rule

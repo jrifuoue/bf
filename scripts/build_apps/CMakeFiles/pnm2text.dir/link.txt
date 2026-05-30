@@ -1,0 +1,1 @@
+/usr/bin/gcc  -O3 -ggdb CMakeFiles/pnm2text.dir/pnm2text.c.o -o pnm2text 

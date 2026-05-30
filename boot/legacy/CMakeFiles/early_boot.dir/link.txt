@@ -1,0 +1,1 @@
+/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-gcc -g -nostdlib -Wl,--script=/workspaces/bf/tilck/build/boot/legacy/early_boot_script.ld CMakeFiles/early_boot.dir/boot.S.o CMakeFiles/early_boot.dir/boot_enable_a20.S.o -o early_boot   -L/workspaces/bf/tilck/boot/legacy 

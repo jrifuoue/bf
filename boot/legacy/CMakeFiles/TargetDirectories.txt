@@ -1,0 +1,7 @@
+/workspaces/bf/tilck/build/boot/legacy/CMakeFiles/early_boot.dir
+/workspaces/bf/tilck/build/boot/legacy/CMakeFiles/bootloader.dir
+/workspaces/bf/tilck/build/boot/legacy/CMakeFiles/edit_cache.dir
+/workspaces/bf/tilck/build/boot/legacy/CMakeFiles/rebuild_cache.dir
+/workspaces/bf/tilck/build/boot/legacy/stage3/CMakeFiles/elf_stage3_unstripped.dir
+/workspaces/bf/tilck/build/boot/legacy/stage3/CMakeFiles/edit_cache.dir
+/workspaces/bf/tilck/build/boot/legacy/stage3/CMakeFiles/rebuild_cache.dir

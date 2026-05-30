@@ -1,0 +1,49 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/workspaces/bf/tilck/build/CMakeFiles/boot_legacy"
+		},
+		{
+			"file" : "/workspaces/bf/tilck/build/CMakeFiles/boot_legacy.rule"
+		},
+		{
+			"file" : "/workspaces/bf/tilck/build/CMakeFiles/boot_legacy-complete.rule"
+		},
+		{
+			"file" : "/workspaces/bf/tilck/build/boot_legacy-prefix/src/boot_legacy-stamp/boot_legacy-build.rule"
+		},
+		{
+			"file" : "/workspaces/bf/tilck/build/boot_legacy-prefix/src/boot_legacy-stamp/boot_legacy-config_dep.rule"
+		},
+		{
+			"file" : "/workspaces/bf/tilck/build/boot_legacy-prefix/src/boot_legacy-stamp/boot_legacy-configure.rule"
+		},
+		{
+			"file" : "/workspaces/bf/tilck/build/boot_legacy-prefix/src/boot_legacy-stamp/boot_legacy-download.rule"
+		},
+		{
+			"file" : "/workspaces/bf/tilck/build/boot_legacy-prefix/src/boot_legacy-stamp/boot_legacy-elfhack_dep.rule"
+		},
+		{
+			"file" : "/workspaces/bf/tilck/build/boot_legacy-prefix/src/boot_legacy-stamp/boot_legacy-install.rule"
+		},
+		{
+			"file" : "/workspaces/bf/tilck/build/boot_legacy-prefix/src/boot_legacy-stamp/boot_legacy-mkdir.rule"
+		},
+		{
+			"file" : "/workspaces/bf/tilck/build/boot_legacy-prefix/src/boot_legacy-stamp/boot_legacy-patch.rule"
+		},
+		{
+			"file" : "/workspaces/bf/tilck/build/boot_legacy-prefix/src/boot_legacy-stamp/boot_legacy-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"boot_legacy"
+		],
+		"name" : "boot_legacy"
+	}
+}

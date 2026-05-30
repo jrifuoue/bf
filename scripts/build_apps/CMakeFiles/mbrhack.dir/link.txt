@@ -1,0 +1,1 @@
+/usr/bin/gcc  -O3 -ggdb CMakeFiles/mbrhack.dir/mbrhack.c.o -o mbrhack 

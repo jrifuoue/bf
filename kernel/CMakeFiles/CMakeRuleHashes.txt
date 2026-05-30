@@ -1,0 +1,8 @@
+# Hashes of file build rules.
+98354eca33ecb3c34698fd6debc35d12 /workspaces/bf/tilck/build/tilck
+4b8aaa43deb3b64a766b8deed66adb74 CMakeFiles/generated_configuration
+d13a9c4c33e5e3641044893c150ece56 arch/i386/CMakeFiles/fonts
+d13a9c4c33e5e3641044893c150ece56 arch/i386/CMakeFiles/kernel
+2b37161c8cce7dd7237731c823aab1ca arch/i386/font16x32.o
+c8efda463c9438fa67465ea6521a3a86 arch/i386/font8x16.o
+3c7534fb306d7bb6e63fbca4d90f788f tilck_gen_headers/generated_config.h

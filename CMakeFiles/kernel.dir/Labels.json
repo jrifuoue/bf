@@ -1,0 +1,49 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/workspaces/bf/tilck/build/CMakeFiles/kernel"
+		},
+		{
+			"file" : "/workspaces/bf/tilck/build/CMakeFiles/kernel.rule"
+		},
+		{
+			"file" : "/workspaces/bf/tilck/build/CMakeFiles/kernel-complete.rule"
+		},
+		{
+			"file" : "/workspaces/bf/tilck/build/kernel-prefix/src/kernel-stamp/kernel-build.rule"
+		},
+		{
+			"file" : "/workspaces/bf/tilck/build/kernel-prefix/src/kernel-stamp/kernel-config_dep.rule"
+		},
+		{
+			"file" : "/workspaces/bf/tilck/build/kernel-prefix/src/kernel-stamp/kernel-configure.rule"
+		},
+		{
+			"file" : "/workspaces/bf/tilck/build/kernel-prefix/src/kernel-stamp/kernel-download.rule"
+		},
+		{
+			"file" : "/workspaces/bf/tilck/build/kernel-prefix/src/kernel-stamp/kernel-install.rule"
+		},
+		{
+			"file" : "/workspaces/bf/tilck/build/kernel-prefix/src/kernel-stamp/kernel-mkdir.rule"
+		},
+		{
+			"file" : "/workspaces/bf/tilck/build/kernel-prefix/src/kernel-stamp/kernel-patch.rule"
+		},
+		{
+			"file" : "/workspaces/bf/tilck/build/kernel-prefix/src/kernel-stamp/kernel-tools_dep.rule"
+		},
+		{
+			"file" : "/workspaces/bf/tilck/build/kernel-prefix/src/kernel-stamp/kernel-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"kernel"
+		],
+		"name" : "kernel"
+	}
+}

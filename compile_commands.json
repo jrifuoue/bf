@@ -1,0 +1,74 @@
+[
+{
+  "directory": "/workspaces/bf/tilck/build/scripts/build_apps",
+  "command": "/usr/bin/g++ -DUSERMODE_APP -I/workspaces/bf/tilck/build -I/workspaces/bf/tilck/include -std=gnu++17 -o CMakeFiles/gen_config.dir/gen_config.cpp.o -c /workspaces/bf/tilck/scripts/build_apps/gen_config.cpp",
+  "file": "/workspaces/bf/tilck/scripts/build_apps/gen_config.cpp",
+  "output": "scripts/build_apps/CMakeFiles/gen_config.dir/gen_config.cpp.o"
+},
+{
+  "directory": "/workspaces/bf/tilck/build/scripts/build_apps",
+  "command": "/usr/bin/gcc -DUSERMODE_APP -DUSE_ELF32 -I/workspaces/bf/tilck/build -I/workspaces/bf/tilck/include  -O3 -ggdb -std=gnu11 -o CMakeFiles/elfhack32.dir/elfhack.c.o -c /workspaces/bf/tilck/scripts/build_apps/elfhack.c",
+  "file": "/workspaces/bf/tilck/scripts/build_apps/elfhack.c",
+  "output": "scripts/build_apps/CMakeFiles/elfhack32.dir/elfhack.c.o"
+},
+{
+  "directory": "/workspaces/bf/tilck/build/scripts/build_apps",
+  "command": "/usr/bin/gcc -DUSERMODE_APP -I/workspaces/bf/tilck/build -I/workspaces/bf/tilck/include  -O3 -ggdb -std=gnu11 -o CMakeFiles/fathack.dir/__/__/common/asserts.c.o -c /workspaces/bf/tilck/common/asserts.c",
+  "file": "/workspaces/bf/tilck/common/asserts.c",
+  "output": "scripts/build_apps/CMakeFiles/fathack.dir/__/__/common/asserts.c.o"
+},
+{
+  "directory": "/workspaces/bf/tilck/build/scripts/build_apps",
+  "command": "/usr/bin/gcc -DUSERMODE_APP -I/workspaces/bf/tilck/build -I/workspaces/bf/tilck/include  -O3 -ggdb -std=gnu11 -o CMakeFiles/fathack.dir/__/__/common/fat32_base.c.o -c /workspaces/bf/tilck/common/fat32_base.c",
+  "file": "/workspaces/bf/tilck/common/fat32_base.c",
+  "output": "scripts/build_apps/CMakeFiles/fathack.dir/__/__/common/fat32_base.c.o"
+},
+{
+  "directory": "/workspaces/bf/tilck/build/scripts/build_apps",
+  "command": "/usr/bin/g++ -DUSERMODE_APP -I/workspaces/bf/tilck/build -I/workspaces/bf/tilck/include -std=gnu++17 -o CMakeFiles/fathack.dir/__/__/common/itoa.cpp.o -c /workspaces/bf/tilck/common/itoa.cpp",
+  "file": "/workspaces/bf/tilck/common/itoa.cpp",
+  "output": "scripts/build_apps/CMakeFiles/fathack.dir/__/__/common/itoa.cpp.o"
+},
+{
+  "directory": "/workspaces/bf/tilck/build/scripts/build_apps",
+  "command": "/usr/bin/gcc -DUSERMODE_APP -I/workspaces/bf/tilck/build -I/workspaces/bf/tilck/include  -O3 -ggdb -std=gnu11 -o CMakeFiles/fathack.dir/__/__/common/misc.c.o -c /workspaces/bf/tilck/common/misc.c",
+  "file": "/workspaces/bf/tilck/common/misc.c",
+  "output": "scripts/build_apps/CMakeFiles/fathack.dir/__/__/common/misc.c.o"
+},
+{
+  "directory": "/workspaces/bf/tilck/build/scripts/build_apps",
+  "command": "/usr/bin/gcc -DUSERMODE_APP -I/workspaces/bf/tilck/build -I/workspaces/bf/tilck/include  -O3 -ggdb -std=gnu11 -o CMakeFiles/fathack.dir/__/__/common/panic.c.o -c /workspaces/bf/tilck/common/panic.c",
+  "file": "/workspaces/bf/tilck/common/panic.c",
+  "output": "scripts/build_apps/CMakeFiles/fathack.dir/__/__/common/panic.c.o"
+},
+{
+  "directory": "/workspaces/bf/tilck/build/scripts/build_apps",
+  "command": "/usr/bin/gcc -DUSERMODE_APP -I/workspaces/bf/tilck/build -I/workspaces/bf/tilck/include  -O3 -ggdb -std=gnu11 -o CMakeFiles/fathack.dir/__/__/common/string_util.c.o -c /workspaces/bf/tilck/common/string_util.c",
+  "file": "/workspaces/bf/tilck/common/string_util.c",
+  "output": "scripts/build_apps/CMakeFiles/fathack.dir/__/__/common/string_util.c.o"
+},
+{
+  "directory": "/workspaces/bf/tilck/build/scripts/build_apps",
+  "command": "/usr/bin/gcc -DUSERMODE_APP -I/workspaces/bf/tilck/build -I/workspaces/bf/tilck/include  -O3 -ggdb -std=gnu11 -o CMakeFiles/fathack.dir/fathack.c.o -c /workspaces/bf/tilck/scripts/build_apps/fathack.c",
+  "file": "/workspaces/bf/tilck/scripts/build_apps/fathack.c",
+  "output": "scripts/build_apps/CMakeFiles/fathack.dir/fathack.c.o"
+},
+{
+  "directory": "/workspaces/bf/tilck/build/scripts/build_apps",
+  "command": "/usr/bin/gcc -DUSERMODE_APP -I/workspaces/bf/tilck/build -I/workspaces/bf/tilck/include  -O3 -ggdb -std=gnu11 -o CMakeFiles/mbrhack.dir/mbrhack.c.o -c /workspaces/bf/tilck/scripts/build_apps/mbrhack.c",
+  "file": "/workspaces/bf/tilck/scripts/build_apps/mbrhack.c",
+  "output": "scripts/build_apps/CMakeFiles/mbrhack.dir/mbrhack.c.o"
+},
+{
+  "directory": "/workspaces/bf/tilck/build/scripts/build_apps",
+  "command": "/usr/bin/gcc -DUSERMODE_APP -I/workspaces/bf/tilck/build -I/workspaces/bf/tilck/include  -O3 -ggdb -std=gnu11 -o CMakeFiles/pnm2text.dir/pnm2text.c.o -c /workspaces/bf/tilck/scripts/build_apps/pnm2text.c",
+  "file": "/workspaces/bf/tilck/scripts/build_apps/pnm2text.c",
+  "output": "scripts/build_apps/CMakeFiles/pnm2text.dir/pnm2text.c.o"
+},
+{
+  "directory": "/workspaces/bf/tilck/build/scripts/build_apps",
+  "command": "/usr/bin/gcc -DUSERMODE_APP -DUSE_ELF64 -I/workspaces/bf/tilck/build -I/workspaces/bf/tilck/include  -O3 -ggdb -std=gnu11 -o CMakeFiles/elfhack64.dir/elfhack.c.o -c /workspaces/bf/tilck/scripts/build_apps/elfhack.c",
+  "file": "/workspaces/bf/tilck/scripts/build_apps/elfhack.c",
+  "output": "scripts/build_apps/CMakeFiles/elfhack64.dir/elfhack.c.o"
+}
+]

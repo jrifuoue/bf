@@ -1,0 +1,2 @@
+/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-ar qc libmod_console.a CMakeFiles/mod_console.dir/workspaces/bf/tilck/modules/console/console.c.o CMakeFiles/mod_console.dir/workspaces/bf/tilck/modules/console/generic_x86/textmode_video.c.o CMakeFiles/mod_console.dir/workspaces/bf/tilck/modules/console/tables.c.o CMakeFiles/mod_console.dir/workspaces/bf/tilck/modules/console/video_term.c.o
+/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-ranlib libmod_console.a

@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+BUILD_DIR="/workspaces/bf/tilck/build"
+$BUILD_DIR/run_multiboot_qemu -S "$@"

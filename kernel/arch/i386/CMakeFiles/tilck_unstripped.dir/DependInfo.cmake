@@ -1,0 +1,158 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
+# The set of languages for which implicit dependencies are needed:
+set(CMAKE_DEPENDS_LANGUAGES
+  "ASM"
+  )
+# The set of files for implicit dependencies of each language:
+set(CMAKE_DEPENDS_CHECK_ASM
+  "/workspaces/bf/tilck/kernel/arch/i386/fault_handlers.S" "/workspaces/bf/tilck/build/kernel/arch/i386/CMakeFiles/tilck_unstripped.dir/fault_handlers.S.o"
+  "/workspaces/bf/tilck/kernel/arch/i386/fault_resumable.S" "/workspaces/bf/tilck/build/kernel/arch/i386/CMakeFiles/tilck_unstripped.dir/fault_resumable.S.o"
+  "/workspaces/bf/tilck/kernel/arch/i386/irq_handlers.S" "/workspaces/bf/tilck/build/kernel/arch/i386/CMakeFiles/tilck_unstripped.dir/irq_handlers.S.o"
+  "/workspaces/bf/tilck/kernel/arch/i386/kernel_yield.S" "/workspaces/bf/tilck/build/kernel/arch/i386/CMakeFiles/tilck_unstripped.dir/kernel_yield.S.o"
+  "/workspaces/bf/tilck/kernel/arch/i386/misc.S" "/workspaces/bf/tilck/build/kernel/arch/i386/CMakeFiles/tilck_unstripped.dir/misc.S.o"
+  "/workspaces/bf/tilck/kernel/arch/i386/start.S" "/workspaces/bf/tilck/build/kernel/arch/i386/CMakeFiles/tilck_unstripped.dir/start.S.o"
+  "/workspaces/bf/tilck/kernel/arch/i386/syscall_entry.S" "/workspaces/bf/tilck/build/kernel/arch/i386/CMakeFiles/tilck_unstripped.dir/syscall_entry.S.o"
+  "/workspaces/bf/tilck/kernel/arch/i386/vdso.S" "/workspaces/bf/tilck/build/kernel/arch/i386/CMakeFiles/tilck_unstripped.dir/vdso.S.o"
+  )
+set(CMAKE_ASM_COMPILER_ID "GNU")
+
+# The include file search paths:
+set(CMAKE_ASM_TARGET_INCLUDE_PATH
+  "/workspaces/bf/tilck/include"
+  "/workspaces/bf/tilck/include/system_headers"
+  "/workspaces/bf/tilck/toolchain4/noarch/acpica/R2024_12_12"
+  "."
+  "/workspaces/bf/tilck/build"
+  "/workspaces/bf/tilck/toolchain4/gcc-13.3.0/i386/gnuefi/3.0.17/inc"
+  "/workspaces/bf/tilck/toolchain4/noarch/acpica/R2024_12_12/source/include"
+  )
+
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/workspaces/bf/tilck/kernel/auth.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/auth.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/auth.c.o.d"
+  "/workspaces/bf/tilck/kernel/bintree/avl_bintree.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/bintree/avl_bintree.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/bintree/avl_bintree.c.o.d"
+  "/workspaces/bf/tilck/kernel/cmdline.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/cmdline.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/cmdline.c.o.d"
+  "/workspaces/bf/tilck/kernel/cwd.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/cwd.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/cwd.c.o.d"
+  "/workspaces/bf/tilck/kernel/datetime.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/datetime.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/datetime.c.o.d"
+  "/workspaces/bf/tilck/kernel/debug.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/debug.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/debug.c.o.d"
+  "/workspaces/bf/tilck/kernel/elf.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/elf.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/elf.c.o.d"
+  "/workspaces/bf/tilck/kernel/execve.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/execve.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/execve.c.o.d"
+  "/workspaces/bf/tilck/kernel/exit.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/exit.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/exit.c.o.d"
+  "/workspaces/bf/tilck/kernel/fork.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/fork.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/fork.c.o.d"
+  "/workspaces/bf/tilck/kernel/fs/devfs.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/fs/devfs.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/fs/devfs.c.o.d"
+  "/workspaces/bf/tilck/kernel/fs/fat32.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/fs/fat32.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/fs/fat32.c.o.d"
+  "/workspaces/bf/tilck/kernel/fs/fat32_mm.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/fs/fat32_mm.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/fs/fat32_mm.c.o.d"
+  "/workspaces/bf/tilck/kernel/fs/flock.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/fs/flock.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/fs/flock.c.o.d"
+  "/workspaces/bf/tilck/kernel/fs/fs_syscalls.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/fs/fs_syscalls.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/fs/fs_syscalls.c.o.d"
+  "/workspaces/bf/tilck/kernel/fs/kernelfs.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/fs/kernelfs.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/fs/kernelfs.c.o.d"
+  "/workspaces/bf/tilck/kernel/fs/mp.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/fs/mp.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/fs/mp.c.o.d"
+  "/workspaces/bf/tilck/kernel/fs/ramfs/ramfs.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/fs/ramfs/ramfs.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/fs/ramfs/ramfs.c.o.d"
+  "/workspaces/bf/tilck/kernel/fs/vfs_util.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/fs/vfs_util.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/fs/vfs_util.c.o.d"
+  "/workspaces/bf/tilck/kernel/gcov.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/gcov.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/gcov.c.o.d"
+  "/workspaces/bf/tilck/kernel/interrupts.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/interrupts.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/interrupts.c.o.d"
+  "/workspaces/bf/tilck/kernel/kb_input.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/kb_input.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/kb_input.c.o.d"
+  "/workspaces/bf/tilck/kernel/kcond.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/kcond.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/kcond.c.o.d"
+  "/workspaces/bf/tilck/kernel/kmalloc/kmalloc.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/kmalloc/kmalloc.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/kmalloc/kmalloc.c.o.d"
+  "/workspaces/bf/tilck/kernel/kmutex.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/kmutex.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/kmutex.c.o.d"
+  "/workspaces/bf/tilck/kernel/ksem.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/ksem.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/ksem.c.o.d"
+  "/workspaces/bf/tilck/kernel/main.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/main.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/main.c.o.d"
+  "/workspaces/bf/tilck/kernel/misc.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/misc.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/misc.c.o.d"
+  "/workspaces/bf/tilck/kernel/mm/process_mm.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/mm/process_mm.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/mm/process_mm.c.o.d"
+  "/workspaces/bf/tilck/kernel/mm/process_mm_base.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/mm/process_mm_base.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/mm/process_mm_base.c.o.d"
+  "/workspaces/bf/tilck/kernel/mm/system_mmap.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/mm/system_mmap.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/mm/system_mmap.c.o.d"
+  "/workspaces/bf/tilck/kernel/modules.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/modules.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/modules.c.o.d"
+  "/workspaces/bf/tilck/kernel/net/net.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/net/net.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/net/net.c.o.d"
+  "/workspaces/bf/tilck/kernel/pipe.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/pipe.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/pipe.c.o.d"
+  "/workspaces/bf/tilck/kernel/poll.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/poll.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/poll.c.o.d"
+  "/workspaces/bf/tilck/kernel/printk.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/printk.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/printk.c.o.d"
+  "/workspaces/bf/tilck/kernel/process.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/process.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/process.c.o.d"
+  "/workspaces/bf/tilck/kernel/ringbuf.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/ringbuf.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/ringbuf.c.o.d"
+  "/workspaces/bf/tilck/kernel/rwlock.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/rwlock.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/rwlock.c.o.d"
+  "/workspaces/bf/tilck/kernel/sched.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/sched.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/sched.c.o.d"
+  "/workspaces/bf/tilck/kernel/select.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/select.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/select.c.o.d"
+  "/workspaces/bf/tilck/kernel/signal.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/signal.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/signal.c.o.d"
+  "/workspaces/bf/tilck/kernel/snprintk.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/snprintk.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/snprintk.c.o.d"
+  "/workspaces/bf/tilck/kernel/sort.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/sort.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/sort.c.o.d"
+  "/workspaces/bf/tilck/kernel/switch.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/switch.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/switch.c.o.d"
+  "/workspaces/bf/tilck/kernel/syscalls.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/syscalls.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/syscalls.c.o.d"
+  "/workspaces/bf/tilck/kernel/tilck_cmd.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/tilck_cmd.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/tilck_cmd.c.o.d"
+  "/workspaces/bf/tilck/kernel/timer.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/timer.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/timer.c.o.d"
+  "/workspaces/bf/tilck/kernel/tty/term_aux.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/tty/term_aux.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/tty/term_aux.c.o.d"
+  "/workspaces/bf/tilck/kernel/tty/term_mgmt.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/tty/term_mgmt.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/tty/term_mgmt.c.o.d"
+  "/workspaces/bf/tilck/kernel/tty/tty.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/tty/tty.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/tty/tty.c.o.d"
+  "/workspaces/bf/tilck/kernel/tty/tty_input.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/tty/tty_input.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/tty/tty_input.c.o.d"
+  "/workspaces/bf/tilck/kernel/tty/tty_ioctl.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/tty/tty_ioctl.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/tty/tty_ioctl.c.o.d"
+  "/workspaces/bf/tilck/kernel/tty/ttyaux.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/tty/ttyaux.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/tty/ttyaux.c.o.d"
+  "/workspaces/bf/tilck/kernel/ubsan.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/ubsan.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/ubsan.c.o.d"
+  "/workspaces/bf/tilck/kernel/uefi.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/uefi.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/uefi.c.o.d"
+  "/workspaces/bf/tilck/kernel/user.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/user.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/user.c.o.d"
+  "/workspaces/bf/tilck/kernel/vfs/vfs.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/vfs/vfs.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/vfs/vfs.c.o.d"
+  "/workspaces/bf/tilck/kernel/waitpid.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/waitpid.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/waitpid.c.o.d"
+  "/workspaces/bf/tilck/kernel/wobj.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/wobj.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/wobj.c.o.d"
+  "/workspaces/bf/tilck/kernel/wth.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/wth.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/wth.c.o.d"
+  "/workspaces/bf/tilck/kernel/wth_aux.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/wth_aux.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/wth_aux.c.o.d"
+  "/workspaces/bf/tilck/kernel/arch/generic_x86/cpu.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/generic_x86/cpu.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/generic_x86/cpu.c.o.d"
+  "/workspaces/bf/tilck/kernel/arch/generic_x86/debug_generic.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/generic_x86/debug_generic.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/generic_x86/debug_generic.c.o.d"
+  "/workspaces/bf/tilck/kernel/arch/generic_x86/fpu_memcpy.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/generic_x86/fpu_memcpy.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/generic_x86/fpu_memcpy.c.o.d"
+  "/workspaces/bf/tilck/kernel/arch/generic_x86/idt_generic.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/generic_x86/idt_generic.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/generic_x86/idt_generic.c.o.d"
+  "/workspaces/bf/tilck/kernel/arch/generic_x86/irq_generic.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/generic_x86/irq_generic.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/generic_x86/irq_generic.c.o.d"
+  "/workspaces/bf/tilck/kernel/arch/generic_x86/misc.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/generic_x86/misc.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/generic_x86/misc.c.o.d"
+  "/workspaces/bf/tilck/kernel/arch/generic_x86/mmap.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/generic_x86/mmap.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/generic_x86/mmap.c.o.d"
+  "/workspaces/bf/tilck/kernel/arch/generic_x86/mtrr.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/generic_x86/mtrr.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/generic_x86/mtrr.c.o.d"
+  "/workspaces/bf/tilck/kernel/arch/generic_x86/paging_generic_x86.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/generic_x86/paging_generic_x86.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/generic_x86/paging_generic_x86.c.o.d"
+  "/workspaces/bf/tilck/kernel/arch/generic_x86/panic.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/generic_x86/panic.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/generic_x86/panic.c.o.d"
+  "/workspaces/bf/tilck/kernel/arch/generic_x86/pic.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/generic_x86/pic.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/generic_x86/pic.c.o.d"
+  "/workspaces/bf/tilck/kernel/arch/generic_x86/pit.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/generic_x86/pit.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/generic_x86/pit.c.o.d"
+  "/workspaces/bf/tilck/kernel/arch/generic_x86/rtc.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/generic_x86/rtc.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/generic_x86/rtc.c.o.d"
+  "/workspaces/bf/tilck/kernel/arch/i386/arch_syscalls.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/arch_syscalls.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/arch_syscalls.c.o.d"
+  "/workspaces/bf/tilck/kernel/arch/i386/debug.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/debug.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/debug.c.o.d"
+  "/workspaces/bf/tilck/kernel/arch/i386/double_fault.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/double_fault.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/double_fault.c.o.d"
+  "/workspaces/bf/tilck/kernel/arch/i386/gdt.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/gdt.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/gdt.c.o.d"
+  "/workspaces/bf/tilck/kernel/arch/i386/idt.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/idt.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/idt.c.o.d"
+  "/workspaces/bf/tilck/kernel/arch/i386/irq.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/irq.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/irq.c.o.d"
+  "/workspaces/bf/tilck/kernel/arch/i386/ldt.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/ldt.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/ldt.c.o.d"
+  "/workspaces/bf/tilck/kernel/arch/i386/paging.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/paging.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/paging.c.o.d"
+  "/workspaces/bf/tilck/kernel/arch/i386/process32.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/process32.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/process32.c.o.d"
+  "/workspaces/bf/tilck/common/3rd_party/crc32.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/workspaces/bf/tilck/common/3rd_party/crc32.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/workspaces/bf/tilck/common/3rd_party/crc32.c.o.d"
+  "/workspaces/bf/tilck/common/3rd_party/datetime.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/workspaces/bf/tilck/common/3rd_party/datetime.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/workspaces/bf/tilck/common/3rd_party/datetime.c.o.d"
+  "/workspaces/bf/tilck/common/arch/generic_x86/cpu_features.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/workspaces/bf/tilck/common/arch/generic_x86/cpu_features.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/workspaces/bf/tilck/common/arch/generic_x86/cpu_features.c.o.d"
+  "/workspaces/bf/tilck/common/asserts.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/workspaces/bf/tilck/common/asserts.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/workspaces/bf/tilck/common/asserts.c.o.d"
+  "/workspaces/bf/tilck/common/fat32_base.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/workspaces/bf/tilck/common/fat32_base.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/workspaces/bf/tilck/common/fat32_base.c.o.d"
+  "/workspaces/bf/tilck/common/misc.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/workspaces/bf/tilck/common/misc.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/workspaces/bf/tilck/common/misc.c.o.d"
+  "/workspaces/bf/tilck/common/panic.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/workspaces/bf/tilck/common/panic.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/workspaces/bf/tilck/common/panic.c.o.d"
+  "/workspaces/bf/tilck/common/string_util.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/workspaces/bf/tilck/common/string_util.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/workspaces/bf/tilck/common/string_util.c.o.d"
+  "/workspaces/bf/tilck/tests/self/deadlock_detection.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/workspaces/bf/tilck/tests/self/deadlock_detection.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/workspaces/bf/tilck/tests/self/deadlock_detection.c.o.d"
+  "/workspaces/bf/tilck/tests/self/se_bintree.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/workspaces/bf/tilck/tests/self/se_bintree.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/workspaces/bf/tilck/tests/self/se_bintree.c.o.d"
+  "/workspaces/bf/tilck/tests/self/se_common.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/workspaces/bf/tilck/tests/self/se_common.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/workspaces/bf/tilck/tests/self/se_common.c.o.d"
+  "/workspaces/bf/tilck/tests/self/se_data.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/workspaces/bf/tilck/tests/self/se_data.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/workspaces/bf/tilck/tests/self/se_data.c.o.d"
+  "/workspaces/bf/tilck/tests/self/se_eevdf.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/workspaces/bf/tilck/tests/self/se_eevdf.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/workspaces/bf/tilck/tests/self/se_eevdf.c.o.d"
+  "/workspaces/bf/tilck/tests/self/se_fairness.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/workspaces/bf/tilck/tests/self/se_fairness.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/workspaces/bf/tilck/tests/self/se_fairness.c.o.d"
+  "/workspaces/bf/tilck/tests/self/se_fault_resumable.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/workspaces/bf/tilck/tests/self/se_fault_resumable.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/workspaces/bf/tilck/tests/self/se_fault_resumable.c.o.d"
+  "/workspaces/bf/tilck/tests/self/se_kcond.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/workspaces/bf/tilck/tests/self/se_kcond.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/workspaces/bf/tilck/tests/self/se_kcond.c.o.d"
+  "/workspaces/bf/tilck/tests/self/se_kmalloc_perf.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/workspaces/bf/tilck/tests/self/se_kmalloc_perf.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/workspaces/bf/tilck/tests/self/se_kmalloc_perf.c.o.d"
+  "/workspaces/bf/tilck/tests/self/se_kmutex.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/workspaces/bf/tilck/tests/self/se_kmutex.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/workspaces/bf/tilck/tests/self/se_kmutex.c.o.d"
+  "/workspaces/bf/tilck/tests/self/se_ksem.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/workspaces/bf/tilck/tests/self/se_ksem.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/workspaces/bf/tilck/tests/self/se_ksem.c.o.d"
+  "/workspaces/bf/tilck/tests/self/se_misc.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/workspaces/bf/tilck/tests/self/se_misc.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/workspaces/bf/tilck/tests/self/se_misc.c.o.d"
+  "/workspaces/bf/tilck/tests/self/se_mobj_waiter.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/workspaces/bf/tilck/tests/self/se_mobj_waiter.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/workspaces/bf/tilck/tests/self/se_mobj_waiter.c.o.d"
+  "/workspaces/bf/tilck/tests/self/se_panic.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/workspaces/bf/tilck/tests/self/se_panic.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/workspaces/bf/tilck/tests/self/se_panic.c.o.d"
+  "/workspaces/bf/tilck/tests/self/se_rtc_uie.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/workspaces/bf/tilck/tests/self/se_rtc_uie.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/workspaces/bf/tilck/tests/self/se_rtc_uie.c.o.d"
+  "/workspaces/bf/tilck/tests/self/se_rwlock.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/workspaces/bf/tilck/tests/self/se_rwlock.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/workspaces/bf/tilck/tests/self/se_rwlock.c.o.d"
+  "/workspaces/bf/tilck/tests/self/se_time.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/workspaces/bf/tilck/tests/self/se_time.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/workspaces/bf/tilck/tests/self/se_time.c.o.d"
+  "/workspaces/bf/tilck/tests/self/se_wth.c" "arch/i386/CMakeFiles/tilck_unstripped.dir/workspaces/bf/tilck/tests/self/se_wth.c.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/workspaces/bf/tilck/tests/self/se_wth.c.o.d"
+  "/workspaces/bf/tilck/kernel/safe_ringbuf.cpp" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/safe_ringbuf.cpp.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/__/__/safe_ringbuf.cpp.o.d"
+  "/workspaces/bf/tilck/common/itoa.cpp" "arch/i386/CMakeFiles/tilck_unstripped.dir/workspaces/bf/tilck/common/itoa.cpp.o" "gcc" "arch/i386/CMakeFiles/tilck_unstripped.dir/workspaces/bf/tilck/common/itoa.cpp.o.d"
+  )
+
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
+  )
+
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_FORWARD_LINKED_INFO_FILES
+  )
+
+# Fortran module output directory.
+set(CMAKE_Fortran_TARGET_MODULE_DIR "")

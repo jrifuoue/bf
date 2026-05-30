@@ -1,0 +1,302 @@
+[
+{
+  "directory": "/workspaces/bf/tilck/build/userapps",
+  "command": "/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-gcc -DUSERMODE_APP -I/workspaces/bf/tilck/build -I/workspaces/bf/tilck/include -I/workspaces/bf/tilck/include/system_headers -I/workspaces/bf/tilck/toolchain4/gcc-13.3.0/i386/zlib/v1.2.11/install/include  -ggdb -Os -Wall -Wno-unused-parameter -g -o CMakeFiles/fbtest.dir/fbtest.c.o -c /workspaces/bf/tilck/userapps/fbtest.c",
+  "file": "/workspaces/bf/tilck/userapps/fbtest.c",
+  "output": "CMakeFiles/fbtest.dir/fbtest.c.o"
+},
+{
+  "directory": "/workspaces/bf/tilck/build/userapps",
+  "command": "/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-gcc -DUSERMODE_APP -I/workspaces/bf/tilck/build -I/workspaces/bf/tilck/include -I/workspaces/bf/tilck/include/system_headers -I/workspaces/bf/tilck/toolchain4/gcc-13.3.0/i386/zlib/v1.2.11/install/include -I/workspaces/bf/tilck/userapps/dp -I/workspaces/bf/tilck/userapps/common  -ggdb -Os -Wall -Wno-unused-parameter -g -o CMakeFiles/dp.dir/dp/dp_main.c.o -c /workspaces/bf/tilck/userapps/dp/dp_main.c",
+  "file": "/workspaces/bf/tilck/userapps/dp/dp_main.c",
+  "output": "CMakeFiles/dp.dir/dp/dp_main.c.o"
+},
+{
+  "directory": "/workspaces/bf/tilck/build/userapps",
+  "command": "/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-gcc -DUSERMODE_APP -I/workspaces/bf/tilck/build -I/workspaces/bf/tilck/include -I/workspaces/bf/tilck/include/system_headers -I/workspaces/bf/tilck/toolchain4/gcc-13.3.0/i386/zlib/v1.2.11/install/include -I/workspaces/bf/tilck/userapps/dp -I/workspaces/bf/tilck/userapps/common  -ggdb -Os -Wall -Wno-unused-parameter -g -o CMakeFiles/dp.dir/dp/dp_panel.c.o -c /workspaces/bf/tilck/userapps/dp/dp_panel.c",
+  "file": "/workspaces/bf/tilck/userapps/dp/dp_panel.c",
+  "output": "CMakeFiles/dp.dir/dp/dp_panel.c.o"
+},
+{
+  "directory": "/workspaces/bf/tilck/build/userapps",
+  "command": "/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-gcc -DUSERMODE_APP -I/workspaces/bf/tilck/build -I/workspaces/bf/tilck/include -I/workspaces/bf/tilck/include/system_headers -I/workspaces/bf/tilck/toolchain4/gcc-13.3.0/i386/zlib/v1.2.11/install/include -I/workspaces/bf/tilck/userapps/dp -I/workspaces/bf/tilck/userapps/common  -ggdb -Os -Wall -Wno-unused-parameter -g -o CMakeFiles/dp.dir/dp/main.c.o -c /workspaces/bf/tilck/userapps/dp/main.c",
+  "file": "/workspaces/bf/tilck/userapps/dp/main.c",
+  "output": "CMakeFiles/dp.dir/dp/main.c.o"
+},
+{
+  "directory": "/workspaces/bf/tilck/build/userapps",
+  "command": "/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-gcc -DUSERMODE_APP -I/workspaces/bf/tilck/build -I/workspaces/bf/tilck/include -I/workspaces/bf/tilck/include/system_headers -I/workspaces/bf/tilck/toolchain4/gcc-13.3.0/i386/zlib/v1.2.11/install/include -I/workspaces/bf/tilck/userapps/dp -I/workspaces/bf/tilck/userapps/common  -ggdb -Os -Wall -Wno-unused-parameter -g -o CMakeFiles/dp.dir/dp/screen_chunks.c.o -c /workspaces/bf/tilck/userapps/dp/screen_chunks.c",
+  "file": "/workspaces/bf/tilck/userapps/dp/screen_chunks.c",
+  "output": "CMakeFiles/dp.dir/dp/screen_chunks.c.o"
+},
+{
+  "directory": "/workspaces/bf/tilck/build/userapps",
+  "command": "/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-gcc -DUSERMODE_APP -I/workspaces/bf/tilck/build -I/workspaces/bf/tilck/include -I/workspaces/bf/tilck/include/system_headers -I/workspaces/bf/tilck/toolchain4/gcc-13.3.0/i386/zlib/v1.2.11/install/include -I/workspaces/bf/tilck/userapps/dp -I/workspaces/bf/tilck/userapps/common  -ggdb -Os -Wall -Wno-unused-parameter -g -o CMakeFiles/dp.dir/dp/screen_heaps.c.o -c /workspaces/bf/tilck/userapps/dp/screen_heaps.c",
+  "file": "/workspaces/bf/tilck/userapps/dp/screen_heaps.c",
+  "output": "CMakeFiles/dp.dir/dp/screen_heaps.c.o"
+},
+{
+  "directory": "/workspaces/bf/tilck/build/userapps",
+  "command": "/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-gcc -DUSERMODE_APP -I/workspaces/bf/tilck/build -I/workspaces/bf/tilck/include -I/workspaces/bf/tilck/include/system_headers -I/workspaces/bf/tilck/toolchain4/gcc-13.3.0/i386/zlib/v1.2.11/install/include -I/workspaces/bf/tilck/userapps/dp -I/workspaces/bf/tilck/userapps/common  -ggdb -Os -Wall -Wno-unused-parameter -g -o CMakeFiles/dp.dir/dp/screen_irqs.c.o -c /workspaces/bf/tilck/userapps/dp/screen_irqs.c",
+  "file": "/workspaces/bf/tilck/userapps/dp/screen_irqs.c",
+  "output": "CMakeFiles/dp.dir/dp/screen_irqs.c.o"
+},
+{
+  "directory": "/workspaces/bf/tilck/build/userapps",
+  "command": "/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-gcc -DUSERMODE_APP -I/workspaces/bf/tilck/build -I/workspaces/bf/tilck/include -I/workspaces/bf/tilck/include/system_headers -I/workspaces/bf/tilck/toolchain4/gcc-13.3.0/i386/zlib/v1.2.11/install/include -I/workspaces/bf/tilck/userapps/dp -I/workspaces/bf/tilck/userapps/common  -ggdb -Os -Wall -Wno-unused-parameter -g -o CMakeFiles/dp.dir/dp/screen_mmap.c.o -c /workspaces/bf/tilck/userapps/dp/screen_mmap.c",
+  "file": "/workspaces/bf/tilck/userapps/dp/screen_mmap.c",
+  "output": "CMakeFiles/dp.dir/dp/screen_mmap.c.o"
+},
+{
+  "directory": "/workspaces/bf/tilck/build/userapps",
+  "command": "/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-gcc -DUSERMODE_APP -I/workspaces/bf/tilck/build -I/workspaces/bf/tilck/include -I/workspaces/bf/tilck/include/system_headers -I/workspaces/bf/tilck/toolchain4/gcc-13.3.0/i386/zlib/v1.2.11/install/include -I/workspaces/bf/tilck/userapps/dp -I/workspaces/bf/tilck/userapps/common  -ggdb -Os -Wall -Wno-unused-parameter -g -o CMakeFiles/dp.dir/dp/screen_opts.c.o -c /workspaces/bf/tilck/userapps/dp/screen_opts.c",
+  "file": "/workspaces/bf/tilck/userapps/dp/screen_opts.c",
+  "output": "CMakeFiles/dp.dir/dp/screen_opts.c.o"
+},
+{
+  "directory": "/workspaces/bf/tilck/build/userapps",
+  "command": "/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-gcc -DUSERMODE_APP -I/workspaces/bf/tilck/build -I/workspaces/bf/tilck/include -I/workspaces/bf/tilck/include/system_headers -I/workspaces/bf/tilck/toolchain4/gcc-13.3.0/i386/zlib/v1.2.11/install/include -I/workspaces/bf/tilck/userapps/dp -I/workspaces/bf/tilck/userapps/common  -ggdb -Os -Wall -Wno-unused-parameter -g -o CMakeFiles/dp.dir/dp/screen_runtime.c.o -c /workspaces/bf/tilck/userapps/dp/screen_runtime.c",
+  "file": "/workspaces/bf/tilck/userapps/dp/screen_runtime.c",
+  "output": "CMakeFiles/dp.dir/dp/screen_runtime.c.o"
+},
+{
+  "directory": "/workspaces/bf/tilck/build/userapps",
+  "command": "/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-gcc -DUSERMODE_APP -I/workspaces/bf/tilck/build -I/workspaces/bf/tilck/include -I/workspaces/bf/tilck/include/system_headers -I/workspaces/bf/tilck/toolchain4/gcc-13.3.0/i386/zlib/v1.2.11/install/include -I/workspaces/bf/tilck/userapps/dp -I/workspaces/bf/tilck/userapps/common  -ggdb -Os -Wall -Wno-unused-parameter -g -o CMakeFiles/dp.dir/dp/screen_tasks.c.o -c /workspaces/bf/tilck/userapps/dp/screen_tasks.c",
+  "file": "/workspaces/bf/tilck/userapps/dp/screen_tasks.c",
+  "output": "CMakeFiles/dp.dir/dp/screen_tasks.c.o"
+},
+{
+  "directory": "/workspaces/bf/tilck/build/userapps",
+  "command": "/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-gcc -DUSERMODE_APP -I/workspaces/bf/tilck/build -I/workspaces/bf/tilck/include -I/workspaces/bf/tilck/include/system_headers -I/workspaces/bf/tilck/toolchain4/gcc-13.3.0/i386/zlib/v1.2.11/install/include -I/workspaces/bf/tilck/userapps/dp -I/workspaces/bf/tilck/userapps/common  -ggdb -Os -Wall -Wno-unused-parameter -g -o CMakeFiles/dp.dir/common/task_dump.c.o -c /workspaces/bf/tilck/userapps/common/task_dump.c",
+  "file": "/workspaces/bf/tilck/userapps/common/task_dump.c",
+  "output": "CMakeFiles/dp.dir/common/task_dump.c.o"
+},
+{
+  "directory": "/workspaces/bf/tilck/build/userapps",
+  "command": "/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-gcc -DUSERMODE_APP -I/workspaces/bf/tilck/build -I/workspaces/bf/tilck/include -I/workspaces/bf/tilck/include/system_headers -I/workspaces/bf/tilck/toolchain4/gcc-13.3.0/i386/zlib/v1.2.11/install/include -I/workspaces/bf/tilck/userapps/dp -I/workspaces/bf/tilck/userapps/common  -ggdb -Os -Wall -Wno-unused-parameter -g -o CMakeFiles/dp.dir/common/term.c.o -c /workspaces/bf/tilck/userapps/common/term.c",
+  "file": "/workspaces/bf/tilck/userapps/common/term.c",
+  "output": "CMakeFiles/dp.dir/common/term.c.o"
+},
+{
+  "directory": "/workspaces/bf/tilck/build/userapps",
+  "command": "/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-gcc -DUSERMODE_APP -I/workspaces/bf/tilck/build -I/workspaces/bf/tilck/include -I/workspaces/bf/tilck/include/system_headers -I/workspaces/bf/tilck/toolchain4/gcc-13.3.0/i386/zlib/v1.2.11/install/include -I/workspaces/bf/tilck/userapps/dp -I/workspaces/bf/tilck/userapps/common  -ggdb -Os -Wall -Wno-unused-parameter -g -o CMakeFiles/dp.dir/common/tui_input.c.o -c /workspaces/bf/tilck/userapps/common/tui_input.c",
+  "file": "/workspaces/bf/tilck/userapps/common/tui_input.c",
+  "output": "CMakeFiles/dp.dir/common/tui_input.c.o"
+},
+{
+  "directory": "/workspaces/bf/tilck/build/userapps",
+  "command": "/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-gcc -DUSERMODE_APP -I/workspaces/bf/tilck/build -I/workspaces/bf/tilck/include -I/workspaces/bf/tilck/include/system_headers -I/workspaces/bf/tilck/toolchain4/gcc-13.3.0/i386/zlib/v1.2.11/install/include -I/workspaces/bf/tilck/userapps/dp -I/workspaces/bf/tilck/userapps/common  -ggdb -Os -Wall -Wno-unused-parameter -g -o CMakeFiles/dp.dir/common/tui_layout.c.o -c /workspaces/bf/tilck/userapps/common/tui_layout.c",
+  "file": "/workspaces/bf/tilck/userapps/common/tui_layout.c",
+  "output": "CMakeFiles/dp.dir/common/tui_layout.c.o"
+},
+{
+  "directory": "/workspaces/bf/tilck/build/userapps",
+  "command": "/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-gcc -DUSERMODE_APP -I/workspaces/bf/tilck/build -I/workspaces/bf/tilck/include -I/workspaces/bf/tilck/include/system_headers -I/workspaces/bf/tilck/toolchain4/gcc-13.3.0/i386/zlib/v1.2.11/install/include -I/workspaces/bf/tilck/userapps/tracer -I/workspaces/bf/tilck/userapps/common  -ggdb -Os -Wall -Wno-unused-parameter -g -o CMakeFiles/tracer.dir/tracer/main.c.o -c /workspaces/bf/tilck/userapps/tracer/main.c",
+  "file": "/workspaces/bf/tilck/userapps/tracer/main.c",
+  "output": "CMakeFiles/tracer.dir/tracer/main.c.o"
+},
+{
+  "directory": "/workspaces/bf/tilck/build/userapps",
+  "command": "/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-gcc -DUSERMODE_APP -I/workspaces/bf/tilck/build -I/workspaces/bf/tilck/include -I/workspaces/bf/tilck/include/system_headers -I/workspaces/bf/tilck/toolchain4/gcc-13.3.0/i386/zlib/v1.2.11/install/include -I/workspaces/bf/tilck/userapps/tracer -I/workspaces/bf/tilck/userapps/common  -ggdb -Os -Wall -Wno-unused-parameter -g -o CMakeFiles/tracer.dir/tracer/screen_tracing.c.o -c /workspaces/bf/tilck/userapps/tracer/screen_tracing.c",
+  "file": "/workspaces/bf/tilck/userapps/tracer/screen_tracing.c",
+  "output": "CMakeFiles/tracer.dir/tracer/screen_tracing.c.o"
+},
+{
+  "directory": "/workspaces/bf/tilck/build/userapps",
+  "command": "/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-gcc -DUSERMODE_APP -I/workspaces/bf/tilck/build -I/workspaces/bf/tilck/include -I/workspaces/bf/tilck/include/system_headers -I/workspaces/bf/tilck/toolchain4/gcc-13.3.0/i386/zlib/v1.2.11/install/include -I/workspaces/bf/tilck/userapps/tracer -I/workspaces/bf/tilck/userapps/common  -ggdb -Os -Wall -Wno-unused-parameter -g -o CMakeFiles/tracer.dir/tracer/test_inject.c.o -c /workspaces/bf/tilck/userapps/tracer/test_inject.c",
+  "file": "/workspaces/bf/tilck/userapps/tracer/test_inject.c",
+  "output": "CMakeFiles/tracer.dir/tracer/test_inject.c.o"
+},
+{
+  "directory": "/workspaces/bf/tilck/build/userapps",
+  "command": "/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-gcc -DUSERMODE_APP -I/workspaces/bf/tilck/build -I/workspaces/bf/tilck/include -I/workspaces/bf/tilck/include/system_headers -I/workspaces/bf/tilck/toolchain4/gcc-13.3.0/i386/zlib/v1.2.11/install/include -I/workspaces/bf/tilck/userapps/tracer -I/workspaces/bf/tilck/userapps/common  -ggdb -Os -Wall -Wno-unused-parameter -g -o CMakeFiles/tracer.dir/tracer/test_live.c.o -c /workspaces/bf/tilck/userapps/tracer/test_live.c",
+  "file": "/workspaces/bf/tilck/userapps/tracer/test_live.c",
+  "output": "CMakeFiles/tracer.dir/tracer/test_live.c.o"
+},
+{
+  "directory": "/workspaces/bf/tilck/build/userapps",
+  "command": "/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-gcc -DUSERMODE_APP -I/workspaces/bf/tilck/build -I/workspaces/bf/tilck/include -I/workspaces/bf/tilck/include/system_headers -I/workspaces/bf/tilck/toolchain4/gcc-13.3.0/i386/zlib/v1.2.11/install/include -I/workspaces/bf/tilck/userapps/tracer -I/workspaces/bf/tilck/userapps/common  -ggdb -Os -Wall -Wno-unused-parameter -g -o CMakeFiles/tracer.dir/tracer/tr_dump.c.o -c /workspaces/bf/tilck/userapps/tracer/tr_dump.c",
+  "file": "/workspaces/bf/tilck/userapps/tracer/tr_dump.c",
+  "output": "CMakeFiles/tracer.dir/tracer/tr_dump.c.o"
+},
+{
+  "directory": "/workspaces/bf/tilck/build/userapps",
+  "command": "/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-gcc -DUSERMODE_APP -I/workspaces/bf/tilck/build -I/workspaces/bf/tilck/include -I/workspaces/bf/tilck/include/system_headers -I/workspaces/bf/tilck/toolchain4/gcc-13.3.0/i386/zlib/v1.2.11/install/include -I/workspaces/bf/tilck/userapps/tracer -I/workspaces/bf/tilck/userapps/common  -ggdb -Os -Wall -Wno-unused-parameter -g -o CMakeFiles/tracer.dir/tracer/tr_dump_ioctl.c.o -c /workspaces/bf/tilck/userapps/tracer/tr_dump_ioctl.c",
+  "file": "/workspaces/bf/tilck/userapps/tracer/tr_dump_ioctl.c",
+  "output": "CMakeFiles/tracer.dir/tracer/tr_dump_ioctl.c.o"
+},
+{
+  "directory": "/workspaces/bf/tilck/build/userapps",
+  "command": "/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-gcc -DUSERMODE_APP -I/workspaces/bf/tilck/build -I/workspaces/bf/tilck/include -I/workspaces/bf/tilck/include/system_headers -I/workspaces/bf/tilck/toolchain4/gcc-13.3.0/i386/zlib/v1.2.11/install/include -I/workspaces/bf/tilck/userapps/tracer -I/workspaces/bf/tilck/userapps/common  -ggdb -Os -Wall -Wno-unused-parameter -g -o CMakeFiles/tracer.dir/tracer/tr_meta.c.o -c /workspaces/bf/tilck/userapps/tracer/tr_meta.c",
+  "file": "/workspaces/bf/tilck/userapps/tracer/tr_meta.c",
+  "output": "CMakeFiles/tracer.dir/tracer/tr_meta.c.o"
+},
+{
+  "directory": "/workspaces/bf/tilck/build/userapps",
+  "command": "/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-gcc -DUSERMODE_APP -I/workspaces/bf/tilck/build -I/workspaces/bf/tilck/include -I/workspaces/bf/tilck/include/system_headers -I/workspaces/bf/tilck/toolchain4/gcc-13.3.0/i386/zlib/v1.2.11/install/include -I/workspaces/bf/tilck/userapps/tracer -I/workspaces/bf/tilck/userapps/common  -ggdb -Os -Wall -Wno-unused-parameter -g -o CMakeFiles/tracer.dir/tracer/tr_render.c.o -c /workspaces/bf/tilck/userapps/tracer/tr_render.c",
+  "file": "/workspaces/bf/tilck/userapps/tracer/tr_render.c",
+  "output": "CMakeFiles/tracer.dir/tracer/tr_render.c.o"
+},
+{
+  "directory": "/workspaces/bf/tilck/build/userapps",
+  "command": "/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-gcc -DUSERMODE_APP -I/workspaces/bf/tilck/build -I/workspaces/bf/tilck/include -I/workspaces/bf/tilck/include/system_headers -I/workspaces/bf/tilck/toolchain4/gcc-13.3.0/i386/zlib/v1.2.11/install/include -I/workspaces/bf/tilck/userapps/tracer -I/workspaces/bf/tilck/userapps/common  -ggdb -Os -Wall -Wno-unused-parameter -g -o CMakeFiles/tracer.dir/common/task_dump.c.o -c /workspaces/bf/tilck/userapps/common/task_dump.c",
+  "file": "/workspaces/bf/tilck/userapps/common/task_dump.c",
+  "output": "CMakeFiles/tracer.dir/common/task_dump.c.o"
+},
+{
+  "directory": "/workspaces/bf/tilck/build/userapps",
+  "command": "/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-gcc -DUSERMODE_APP -I/workspaces/bf/tilck/build -I/workspaces/bf/tilck/include -I/workspaces/bf/tilck/include/system_headers -I/workspaces/bf/tilck/toolchain4/gcc-13.3.0/i386/zlib/v1.2.11/install/include -I/workspaces/bf/tilck/userapps/tracer -I/workspaces/bf/tilck/userapps/common  -ggdb -Os -Wall -Wno-unused-parameter -g -o CMakeFiles/tracer.dir/common/term.c.o -c /workspaces/bf/tilck/userapps/common/term.c",
+  "file": "/workspaces/bf/tilck/userapps/common/term.c",
+  "output": "CMakeFiles/tracer.dir/common/term.c.o"
+},
+{
+  "directory": "/workspaces/bf/tilck/build/userapps",
+  "command": "/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-gcc -DUSERMODE_APP -I/workspaces/bf/tilck/build -I/workspaces/bf/tilck/include -I/workspaces/bf/tilck/include/system_headers -I/workspaces/bf/tilck/toolchain4/gcc-13.3.0/i386/zlib/v1.2.11/install/include -I/workspaces/bf/tilck/userapps/tracer -I/workspaces/bf/tilck/userapps/common  -ggdb -Os -Wall -Wno-unused-parameter -g -o CMakeFiles/tracer.dir/common/tui_input.c.o -c /workspaces/bf/tilck/userapps/common/tui_input.c",
+  "file": "/workspaces/bf/tilck/userapps/common/tui_input.c",
+  "output": "CMakeFiles/tracer.dir/common/tui_input.c.o"
+},
+{
+  "directory": "/workspaces/bf/tilck/build/userapps",
+  "command": "/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-gcc -DUSERMODE_APP -I/workspaces/bf/tilck/build -I/workspaces/bf/tilck/include -I/workspaces/bf/tilck/include/system_headers -I/workspaces/bf/tilck/toolchain4/gcc-13.3.0/i386/zlib/v1.2.11/install/include -I/workspaces/bf/tilck/userapps/tracer -I/workspaces/bf/tilck/userapps/common  -ggdb -Os -Wall -Wno-unused-parameter -g -o CMakeFiles/tracer.dir/common/tui_layout.c.o -c /workspaces/bf/tilck/userapps/common/tui_layout.c",
+  "file": "/workspaces/bf/tilck/userapps/common/tui_layout.c",
+  "output": "CMakeFiles/tracer.dir/common/tui_layout.c.o"
+},
+{
+  "directory": "/workspaces/bf/tilck/build/userapps",
+  "command": "/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-gcc -DUSERMODE_APP -I/workspaces/bf/tilck/build -I/workspaces/bf/tilck/include -I/workspaces/bf/tilck/include/system_headers -I/workspaces/bf/tilck/toolchain4/gcc-13.3.0/i386/zlib/v1.2.11/install/include -I/workspaces/bf/tilck/userapps/devshell  -ggdb -Os -Wall -Wno-unused-parameter -g -o CMakeFiles/devshell.dir/workspaces/bf/tilck/common/3rd_party/base64.c.o -c /workspaces/bf/tilck/common/3rd_party/base64.c",
+  "file": "/workspaces/bf/tilck/common/3rd_party/base64.c",
+  "output": "CMakeFiles/devshell.dir/workspaces/bf/tilck/common/3rd_party/base64.c.o"
+},
+{
+  "directory": "/workspaces/bf/tilck/build/userapps",
+  "command": "/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-gcc -DUSERMODE_APP -I/workspaces/bf/tilck/build -I/workspaces/bf/tilck/include -I/workspaces/bf/tilck/include/system_headers -I/workspaces/bf/tilck/toolchain4/gcc-13.3.0/i386/zlib/v1.2.11/install/include -I/workspaces/bf/tilck/userapps/devshell  -ggdb -Os -Wall -Wno-unused-parameter -g -o CMakeFiles/devshell.dir/workspaces/bf/tilck/tests/system/cmds_table.c.o -c /workspaces/bf/tilck/tests/system/cmds_table.c",
+  "file": "/workspaces/bf/tilck/tests/system/cmds_table.c",
+  "output": "CMakeFiles/devshell.dir/workspaces/bf/tilck/tests/system/cmds_table.c.o"
+},
+{
+  "directory": "/workspaces/bf/tilck/build/userapps",
+  "command": "/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-gcc -DUSERMODE_APP -I/workspaces/bf/tilck/build -I/workspaces/bf/tilck/include -I/workspaces/bf/tilck/include/system_headers -I/workspaces/bf/tilck/toolchain4/gcc-13.3.0/i386/zlib/v1.2.11/install/include -I/workspaces/bf/tilck/userapps/devshell  -ggdb -Os -Wall -Wno-unused-parameter -g -o CMakeFiles/devshell.dir/workspaces/bf/tilck/tests/system/test_bigargv.c.o -c /workspaces/bf/tilck/tests/system/test_bigargv.c",
+  "file": "/workspaces/bf/tilck/tests/system/test_bigargv.c",
+  "output": "CMakeFiles/devshell.dir/workspaces/bf/tilck/tests/system/test_bigargv.c.o"
+},
+{
+  "directory": "/workspaces/bf/tilck/build/userapps",
+  "command": "/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-gcc -DUSERMODE_APP -I/workspaces/bf/tilck/build -I/workspaces/bf/tilck/include -I/workspaces/bf/tilck/include/system_headers -I/workspaces/bf/tilck/toolchain4/gcc-13.3.0/i386/zlib/v1.2.11/install/include -I/workspaces/bf/tilck/userapps/devshell  -ggdb -Os -Wall -Wno-unused-parameter -g -o CMakeFiles/devshell.dir/workspaces/bf/tilck/tests/system/test_fat32.c.o -c /workspaces/bf/tilck/tests/system/test_fat32.c",
+  "file": "/workspaces/bf/tilck/tests/system/test_fat32.c",
+  "output": "CMakeFiles/devshell.dir/workspaces/bf/tilck/tests/system/test_fat32.c.o"
+},
+{
+  "directory": "/workspaces/bf/tilck/build/userapps",
+  "command": "/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-gcc -DUSERMODE_APP -I/workspaces/bf/tilck/build -I/workspaces/bf/tilck/include -I/workspaces/bf/tilck/include/system_headers -I/workspaces/bf/tilck/toolchain4/gcc-13.3.0/i386/zlib/v1.2.11/install/include -I/workspaces/bf/tilck/userapps/devshell  -ggdb -Os -Wall -Wno-unused-parameter -g -o CMakeFiles/devshell.dir/workspaces/bf/tilck/tests/system/test_fork.c.o -c /workspaces/bf/tilck/tests/system/test_fork.c",
+  "file": "/workspaces/bf/tilck/tests/system/test_fork.c",
+  "output": "CMakeFiles/devshell.dir/workspaces/bf/tilck/tests/system/test_fork.c.o"
+},
+{
+  "directory": "/workspaces/bf/tilck/build/userapps",
+  "command": "/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-gcc -DUSERMODE_APP -I/workspaces/bf/tilck/build -I/workspaces/bf/tilck/include -I/workspaces/bf/tilck/include/system_headers -I/workspaces/bf/tilck/toolchain4/gcc-13.3.0/i386/zlib/v1.2.11/install/include -I/workspaces/bf/tilck/userapps/devshell  -ggdb -Os -Wall -Wno-unused-parameter -g -o CMakeFiles/devshell.dir/workspaces/bf/tilck/tests/system/test_fs1.c.o -c /workspaces/bf/tilck/tests/system/test_fs1.c",
+  "file": "/workspaces/bf/tilck/tests/system/test_fs1.c",
+  "output": "CMakeFiles/devshell.dir/workspaces/bf/tilck/tests/system/test_fs1.c.o"
+},
+{
+  "directory": "/workspaces/bf/tilck/build/userapps",
+  "command": "/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-gcc -DUSERMODE_APP -I/workspaces/bf/tilck/build -I/workspaces/bf/tilck/include -I/workspaces/bf/tilck/include/system_headers -I/workspaces/bf/tilck/toolchain4/gcc-13.3.0/i386/zlib/v1.2.11/install/include -I/workspaces/bf/tilck/userapps/devshell  -ggdb -Os -Wall -Wno-unused-parameter -g -o CMakeFiles/devshell.dir/workspaces/bf/tilck/tests/system/test_fs2.c.o -c /workspaces/bf/tilck/tests/system/test_fs2.c",
+  "file": "/workspaces/bf/tilck/tests/system/test_fs2.c",
+  "output": "CMakeFiles/devshell.dir/workspaces/bf/tilck/tests/system/test_fs2.c.o"
+},
+{
+  "directory": "/workspaces/bf/tilck/build/userapps",
+  "command": "/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-gcc -DUSERMODE_APP -I/workspaces/bf/tilck/build -I/workspaces/bf/tilck/include -I/workspaces/bf/tilck/include/system_headers -I/workspaces/bf/tilck/toolchain4/gcc-13.3.0/i386/zlib/v1.2.11/install/include -I/workspaces/bf/tilck/userapps/devshell  -ggdb -Os -Wall -Wno-unused-parameter -g -o CMakeFiles/devshell.dir/workspaces/bf/tilck/tests/system/test_fs_perf.c.o -c /workspaces/bf/tilck/tests/system/test_fs_perf.c",
+  "file": "/workspaces/bf/tilck/tests/system/test_fs_perf.c",
+  "output": "CMakeFiles/devshell.dir/workspaces/bf/tilck/tests/system/test_fs_perf.c.o"
+},
+{
+  "directory": "/workspaces/bf/tilck/build/userapps",
+  "command": "/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-gcc -DUSERMODE_APP -I/workspaces/bf/tilck/build -I/workspaces/bf/tilck/include -I/workspaces/bf/tilck/include/system_headers -I/workspaces/bf/tilck/toolchain4/gcc-13.3.0/i386/zlib/v1.2.11/install/include -I/workspaces/bf/tilck/userapps/devshell  -ggdb -Os -Wall -Wno-unused-parameter -g -o CMakeFiles/devshell.dir/workspaces/bf/tilck/tests/system/test_misc.c.o -c /workspaces/bf/tilck/tests/system/test_misc.c",
+  "file": "/workspaces/bf/tilck/tests/system/test_misc.c",
+  "output": "CMakeFiles/devshell.dir/workspaces/bf/tilck/tests/system/test_misc.c.o"
+},
+{
+  "directory": "/workspaces/bf/tilck/build/userapps",
+  "command": "/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-gcc -DUSERMODE_APP -I/workspaces/bf/tilck/build -I/workspaces/bf/tilck/include -I/workspaces/bf/tilck/include/system_headers -I/workspaces/bf/tilck/toolchain4/gcc-13.3.0/i386/zlib/v1.2.11/install/include -I/workspaces/bf/tilck/userapps/devshell  -ggdb -Os -Wall -Wno-unused-parameter -g -o CMakeFiles/devshell.dir/workspaces/bf/tilck/tests/system/test_mm.c.o -c /workspaces/bf/tilck/tests/system/test_mm.c",
+  "file": "/workspaces/bf/tilck/tests/system/test_mm.c",
+  "output": "CMakeFiles/devshell.dir/workspaces/bf/tilck/tests/system/test_mm.c.o"
+},
+{
+  "directory": "/workspaces/bf/tilck/build/userapps",
+  "command": "/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-gcc -DUSERMODE_APP -I/workspaces/bf/tilck/build -I/workspaces/bf/tilck/include -I/workspaces/bf/tilck/include/system_headers -I/workspaces/bf/tilck/toolchain4/gcc-13.3.0/i386/zlib/v1.2.11/install/include -I/workspaces/bf/tilck/userapps/devshell  -ggdb -Os -Wall -Wno-unused-parameter -g -o CMakeFiles/devshell.dir/workspaces/bf/tilck/tests/system/test_null.c.o -c /workspaces/bf/tilck/tests/system/test_null.c",
+  "file": "/workspaces/bf/tilck/tests/system/test_null.c",
+  "output": "CMakeFiles/devshell.dir/workspaces/bf/tilck/tests/system/test_null.c.o"
+},
+{
+  "directory": "/workspaces/bf/tilck/build/userapps",
+  "command": "/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-gcc -DUSERMODE_APP -I/workspaces/bf/tilck/build -I/workspaces/bf/tilck/include -I/workspaces/bf/tilck/include/system_headers -I/workspaces/bf/tilck/toolchain4/gcc-13.3.0/i386/zlib/v1.2.11/install/include -I/workspaces/bf/tilck/userapps/devshell  -ggdb -Os -Wall -Wno-unused-parameter -g -o CMakeFiles/devshell.dir/workspaces/bf/tilck/tests/system/test_pipe.c.o -c /workspaces/bf/tilck/tests/system/test_pipe.c",
+  "file": "/workspaces/bf/tilck/tests/system/test_pipe.c",
+  "output": "CMakeFiles/devshell.dir/workspaces/bf/tilck/tests/system/test_pipe.c.o"
+},
+{
+  "directory": "/workspaces/bf/tilck/build/userapps",
+  "command": "/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-gcc -DUSERMODE_APP -I/workspaces/bf/tilck/build -I/workspaces/bf/tilck/include -I/workspaces/bf/tilck/include/system_headers -I/workspaces/bf/tilck/toolchain4/gcc-13.3.0/i386/zlib/v1.2.11/install/include -I/workspaces/bf/tilck/userapps/devshell  -ggdb -Os -Wall -Wno-unused-parameter -g -o CMakeFiles/devshell.dir/workspaces/bf/tilck/tests/system/test_poll.c.o -c /workspaces/bf/tilck/tests/system/test_poll.c",
+  "file": "/workspaces/bf/tilck/tests/system/test_poll.c",
+  "output": "CMakeFiles/devshell.dir/workspaces/bf/tilck/tests/system/test_poll.c.o"
+},
+{
+  "directory": "/workspaces/bf/tilck/build/userapps",
+  "command": "/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-gcc -DUSERMODE_APP -I/workspaces/bf/tilck/build -I/workspaces/bf/tilck/include -I/workspaces/bf/tilck/include/system_headers -I/workspaces/bf/tilck/toolchain4/gcc-13.3.0/i386/zlib/v1.2.11/install/include -I/workspaces/bf/tilck/userapps/devshell  -ggdb -Os -Wall -Wno-unused-parameter -g -o CMakeFiles/devshell.dir/workspaces/bf/tilck/tests/system/test_select.c.o -c /workspaces/bf/tilck/tests/system/test_select.c",
+  "file": "/workspaces/bf/tilck/tests/system/test_select.c",
+  "output": "CMakeFiles/devshell.dir/workspaces/bf/tilck/tests/system/test_select.c.o"
+},
+{
+  "directory": "/workspaces/bf/tilck/build/userapps",
+  "command": "/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-gcc -DUSERMODE_APP -I/workspaces/bf/tilck/build -I/workspaces/bf/tilck/include -I/workspaces/bf/tilck/include/system_headers -I/workspaces/bf/tilck/toolchain4/gcc-13.3.0/i386/zlib/v1.2.11/install/include -I/workspaces/bf/tilck/userapps/devshell  -ggdb -Os -Wall -Wno-unused-parameter -g -o CMakeFiles/devshell.dir/workspaces/bf/tilck/tests/system/test_signals.c.o -c /workspaces/bf/tilck/tests/system/test_signals.c",
+  "file": "/workspaces/bf/tilck/tests/system/test_signals.c",
+  "output": "CMakeFiles/devshell.dir/workspaces/bf/tilck/tests/system/test_signals.c.o"
+},
+{
+  "directory": "/workspaces/bf/tilck/build/userapps",
+  "command": "/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-gcc -DUSERMODE_APP -I/workspaces/bf/tilck/build -I/workspaces/bf/tilck/include -I/workspaces/bf/tilck/include/system_headers -I/workspaces/bf/tilck/toolchain4/gcc-13.3.0/i386/zlib/v1.2.11/install/include -I/workspaces/bf/tilck/userapps/devshell  -ggdb -Os -Wall -Wno-unused-parameter -g -o CMakeFiles/devshell.dir/workspaces/bf/tilck/tests/system/test_waitpid.c.o -c /workspaces/bf/tilck/tests/system/test_waitpid.c",
+  "file": "/workspaces/bf/tilck/tests/system/test_waitpid.c",
+  "output": "CMakeFiles/devshell.dir/workspaces/bf/tilck/tests/system/test_waitpid.c.o"
+},
+{
+  "directory": "/workspaces/bf/tilck/build/userapps",
+  "command": "/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-gcc -DUSERMODE_APP -I/workspaces/bf/tilck/build -I/workspaces/bf/tilck/include -I/workspaces/bf/tilck/include/system_headers -I/workspaces/bf/tilck/toolchain4/gcc-13.3.0/i386/zlib/v1.2.11/install/include -I/workspaces/bf/tilck/userapps/devshell  -ggdb -Os -Wall -Wno-unused-parameter -g -o CMakeFiles/devshell.dir/devshell/commands.c.o -c /workspaces/bf/tilck/userapps/devshell/commands.c",
+  "file": "/workspaces/bf/tilck/userapps/devshell/commands.c",
+  "output": "CMakeFiles/devshell.dir/devshell/commands.c.o"
+},
+{
+  "directory": "/workspaces/bf/tilck/build/userapps",
+  "command": "/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-gcc -DUSERMODE_APP -I/workspaces/bf/tilck/build -I/workspaces/bf/tilck/include -I/workspaces/bf/tilck/include/system_headers -I/workspaces/bf/tilck/toolchain4/gcc-13.3.0/i386/zlib/v1.2.11/install/include -I/workspaces/bf/tilck/userapps/devshell  -ggdb -Os -Wall -Wno-unused-parameter -g -o CMakeFiles/devshell.dir/devshell/cov.c.o -c /workspaces/bf/tilck/userapps/devshell/cov.c",
+  "file": "/workspaces/bf/tilck/userapps/devshell/cov.c",
+  "output": "CMakeFiles/devshell.dir/devshell/cov.c.o"
+},
+{
+  "directory": "/workspaces/bf/tilck/build/userapps",
+  "command": "/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-gcc -DUSERMODE_APP -I/workspaces/bf/tilck/build -I/workspaces/bf/tilck/include -I/workspaces/bf/tilck/include/system_headers -I/workspaces/bf/tilck/toolchain4/gcc-13.3.0/i386/zlib/v1.2.11/install/include -I/workspaces/bf/tilck/userapps/devshell  -ggdb -Os -Wall -Wno-unused-parameter -g -o CMakeFiles/devshell.dir/devshell/devshell.c.o -c /workspaces/bf/tilck/userapps/devshell/devshell.c",
+  "file": "/workspaces/bf/tilck/userapps/devshell/devshell.c",
+  "output": "CMakeFiles/devshell.dir/devshell/devshell.c.o"
+},
+{
+  "directory": "/workspaces/bf/tilck/build/userapps",
+  "command": "/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-gcc -DUSERMODE_APP -I/workspaces/bf/tilck/build -I/workspaces/bf/tilck/include -I/workspaces/bf/tilck/include/system_headers -I/workspaces/bf/tilck/toolchain4/gcc-13.3.0/i386/zlib/v1.2.11/install/include -I/workspaces/bf/tilck/userapps/devshell -g -o CMakeFiles/devshell.dir/devshell/i386.S.o -c /workspaces/bf/tilck/userapps/devshell/i386.S",
+  "file": "/workspaces/bf/tilck/userapps/devshell/i386.S",
+  "output": "CMakeFiles/devshell.dir/devshell/i386.S.o"
+},
+{
+  "directory": "/workspaces/bf/tilck/build/userapps",
+  "command": "/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-gcc -DUSERMODE_APP -I/workspaces/bf/tilck/build -I/workspaces/bf/tilck/include -I/workspaces/bf/tilck/include/system_headers -I/workspaces/bf/tilck/toolchain4/gcc-13.3.0/i386/zlib/v1.2.11/install/include -I/workspaces/bf/tilck/userapps/devshell  -ggdb -Os -Wall -Wno-unused-parameter -g -o CMakeFiles/devshell.dir/devshell/readcmd.c.o -c /workspaces/bf/tilck/userapps/devshell/readcmd.c",
+  "file": "/workspaces/bf/tilck/userapps/devshell/readcmd.c",
+  "output": "CMakeFiles/devshell.dir/devshell/readcmd.c.o"
+},
+{
+  "directory": "/workspaces/bf/tilck/build/userapps",
+  "command": "/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-gcc -DUSERMODE_APP -I/workspaces/bf/tilck/build -I/workspaces/bf/tilck/include -I/workspaces/bf/tilck/include/system_headers -I/workspaces/bf/tilck/toolchain4/gcc-13.3.0/i386/zlib/v1.2.11/install/include  -ggdb -Os -Wall -Wno-unused-parameter -g -o CMakeFiles/init.dir/init.c.o -c /workspaces/bf/tilck/userapps/init.c",
+  "file": "/workspaces/bf/tilck/userapps/init.c",
+  "output": "CMakeFiles/init.dir/init.c.o"
+},
+{
+  "directory": "/workspaces/bf/tilck/build/userapps",
+  "command": "/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-gcc -DUSERMODE_APP -I/workspaces/bf/tilck/build -I/workspaces/bf/tilck/include -I/workspaces/bf/tilck/include/system_headers -I/workspaces/bf/tilck/toolchain4/gcc-13.3.0/i386/zlib/v1.2.11/install/include  -ggdb -Os -Wall -Wno-unused-parameter -g -o CMakeFiles/termtest.dir/termtest.c.o -c /workspaces/bf/tilck/userapps/termtest.c",
+  "file": "/workspaces/bf/tilck/userapps/termtest.c",
+  "output": "CMakeFiles/termtest.dir/termtest.c.o"
+}
+]

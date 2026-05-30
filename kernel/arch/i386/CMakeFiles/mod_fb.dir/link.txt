@@ -1,0 +1,2 @@
+/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-ar qc libmod_fb.a CMakeFiles/mod_fb.dir/workspaces/bf/tilck/modules/fb/fb_console.c.o CMakeFiles/mod_fb.dir/workspaces/bf/tilck/modules/fb/fb_raw.c.o CMakeFiles/mod_fb.dir/workspaces/bf/tilck/modules/fb/fbdev.c.o CMakeFiles/mod_fb.dir/workspaces/bf/tilck/modules/fb/se_fb_perf.c.o
+/workspaces/bf/tilck/toolchain4/host/linux-x86_64/portable/gcc-i386-musl/13.3.0/bin/i686-linux-ranlib libmod_fb.a

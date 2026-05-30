@@ -1,0 +1,11 @@
+/workspaces/bf/tilck/build/userapps/CMakeFiles/userapps.dir
+/workspaces/bf/tilck/build/userapps/CMakeFiles/init.dir
+/workspaces/bf/tilck/build/userapps/CMakeFiles/termtest.dir
+/workspaces/bf/tilck/build/userapps/CMakeFiles/fbtest.dir
+/workspaces/bf/tilck/build/userapps/CMakeFiles/dp.dir
+/workspaces/bf/tilck/build/userapps/CMakeFiles/tracer.dir
+/workspaces/bf/tilck/build/userapps/CMakeFiles/devshell.dir
+/workspaces/bf/tilck/build/userapps/CMakeFiles/edit_cache.dir
+/workspaces/bf/tilck/build/userapps/CMakeFiles/rebuild_cache.dir
+/workspaces/bf/tilck/build/userapps/extra/CMakeFiles/edit_cache.dir
+/workspaces/bf/tilck/build/userapps/extra/CMakeFiles/rebuild_cache.dir
